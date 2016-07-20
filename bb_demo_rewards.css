@@ -1,0 +1,39 @@
+.header{
+  display: none !important;
+  
+}
+.reward{
+  margin: 0px 10px !important;
+  width: 30% !important;
+}
+.reward img {
+    padding: 30px 0px 15px;
+}
+.content {
+    text-align: center;
+    text-transform: uppercase;
+    color: #042037;
+}
+.points {
+    float: none !important;
+}
+.ct-points-color {
+    color: #888 !important;
+    font-size: 18px;
+    font-weight: bold;
+}
+.row:nth-child(2) {
+    display: none !important;
+}
+.row:nth-child(3) {
+    height: 30px !important;
+}
+.content a {
+    font-size: 18px !important;
+    height: 50px !important;
+}
+@font-face {
+    font-family: Forum;
+    src: url(https://fonts.googleapis.com/css?family=Forum);
+    font-weight: normal;
+}
