@@ -5,6 +5,7 @@ li.activity {
     margin: 1.1%;
     box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
     padding: 0px !important;
+    min-height: 310px !important;
 }
 .image-container {
     width: 100% !important;
@@ -32,6 +33,7 @@ img {
     font-size: 18px;
     text-transform: uppercase;
     padding: 0px 10px;
+    min-height: 226px;
 }
 .points-container {
     float: none !important;
@@ -49,4 +51,7 @@ img {
 }
 .activity:nth-child(3) .point-value::after {
     content: '+20 Points' !important;
+}
+.activity:nth-child(2) .title::after {
+    content: 'Product Review';
 }
