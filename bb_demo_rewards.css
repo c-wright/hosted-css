@@ -1,10 +1,10 @@
 @font-face {
-    font-family: EB Garamond;
-    src: url(https://rawgit.com/google/fonts/master/ofl/ebgaramond/EBGaramond-Regular.ttf);
+    font-family: Crimson Text;
+    src: url(https://cdn.rawgit.com/google/fonts/master/ofl/crimsontext/CrimsonText-Regular.ttf);
     font-weight: normal;
 }
 body{
-  font-family: 'Times New Roman', serif;
+  font-family: 'Crimson Text', serif;
 }
 .header{
   display: none !important;
