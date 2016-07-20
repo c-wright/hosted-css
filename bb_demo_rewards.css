@@ -1,6 +1,13 @@
+@font-face {
+    font-family: Forum;
+    src: url(https://cdn.rawgit.com/google/fonts/master/ofl/forum/Forum-Regular.ttf);
+    font-weight: normal;
+}
+body{
+  font-family: "Forum";
+}
 .header{
   display: none !important;
-  
 }
 .reward{
   margin: 0px 10px !important;
@@ -31,9 +38,4 @@
 .content a {
     font-size: 18px !important;
     height: 50px !important;
-}
-@font-face {
-    font-family: Forum;
-    src: url(https://fonts.googleapis.com/css?family=Forum);
-    font-weight: normal;
 }
