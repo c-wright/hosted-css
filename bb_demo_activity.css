@@ -1,3 +1,6 @@
+.header {
+    display: none !important;
+}
 li.activity {
     background: #fff !important;
     width: 30%;
