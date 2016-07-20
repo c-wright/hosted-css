@@ -12,6 +12,7 @@ body{
 .reward{
   margin: 0px 10px !important;
   width: 30% !important;
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
 }
 .reward img {
     padding: 30px 0px 15px;
