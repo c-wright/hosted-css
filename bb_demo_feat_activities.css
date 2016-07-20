@@ -58,7 +58,8 @@ img {
     font-size: 16px;
     font-weight: bold;
     margin: 10% !important;
+    text-transform: uppercase !important;
 }
 .activity:nth-child(3) .point-value::after {
-    content: '+20 Points' !important;
+    content: '+20 POINTS' !important;
 }
