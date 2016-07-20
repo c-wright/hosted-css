@@ -63,6 +63,3 @@ img {
 .activity:nth-child(3) .point-value::after {
     content: '+20 Points' !important;
 }
-.activity:nth-child(2) .title::after {
-    content: 'Product Review';
-}
