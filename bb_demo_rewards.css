@@ -28,6 +28,7 @@ body{
     color: #888 !important;
     font-size: 18px;
     font-weight: bold;
+    text-transform: uppercase;
 }
 .row:nth-child(2) {
     display: none !important;
