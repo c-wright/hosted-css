@@ -1,0 +1,52 @@
+li.activity {
+    background: #fff !important;
+    width: 30%;
+    display: inline-block;
+    margin: 1.1%;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    padding: 0px !important;
+}
+.image-container {
+    width: 100% !important;
+    height: 100% !important;
+    background-color: transparent !important;
+}
+img {
+    width: 100% !important;
+    height: 100% !important;
+    padding: 30px 0px !important;
+}
+.info-container {
+    text-align: center;
+    width: 100% !important;
+    float: none !important;
+    display: block !important;
+    max-width: none !important;
+    padding: 0px !important;
+}
+.description {
+    display: none;
+}
+.title {
+    font-family: "Times New Roman";
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0px 10px;
+}
+.points-container {
+    float: none !important;
+    width: 100%;
+}
+.point-value {
+    color: white !important;
+    background-color: #042037;
+    width: 80%;
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10% !important;
+}
+.activity:nth-child(3) .point-value::after {
+    content: '+20 Points' !important;
+}
