@@ -28,7 +28,8 @@ body{
     color: #888 !important;
     font-size: 18px;
     font-weight: bold;
-    text-transform: uppercase;
+    text-transform: uppercase !important;
+    font-family: sans-serif;
 }
 .row:nth-child(2) {
     display: none !important;
