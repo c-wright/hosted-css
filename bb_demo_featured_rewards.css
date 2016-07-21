@@ -6,6 +6,9 @@
 body{
   font-family: 'Crimson Text', serif;
 }
+.container {
+  padding-top: 10px !important;
+}
 .header{
   display: none !important;
 }
