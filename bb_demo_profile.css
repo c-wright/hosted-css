@@ -1,0 +1,79 @@
+@font-face {
+    font-family: Crimson Text;
+    src: url(https://cdn.rawgit.com/google/fonts/master/ofl/crimsontext/CrimsonText-Regular.ttf);
+    font-weight: normal;
+}
+body {
+    font-family: 'Crimson Text', serif;
+    background-color: transparent;
+}
+.header {
+    display: none !important;
+}
+.container {
+    padding-top: 40px !important;
+}
+img.icon {
+    display: none !important;
+}
+.fan-level .small {
+    display: none;
+}
+.fan-level.small {
+    color: #e2be86;
+    font-size: 16px !important;
+    font-weight: 600;
+}
+.redeemable-points.ct-points-color {
+    color: #e2be86 !important;
+    font-weight: 600;
+}
+.name {
+    font-size: 16px !important;
+    color: #fff !important;
+}
+span.max-level {
+    display: none;
+}
+.lifetime-points {
+    display: none;
+}
+ct-progress-bar {
+    display: none;
+}
+span.fan-level.small::before {
+    content: 'Current Level ';
+    color: white;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 8px;
+}
+.points-info {
+    padding-top: 18px !important;
+}
+.progress-bar-container {
+    padding-top: 18px !important;
+}
+.logout-link-container {
+    position: absolute;
+    top: 50px;
+    right: 0px;
+}
+a.logout-link {
+    color: #e2be86 !important;
+    font-size: 12px;
+    text-transform: uppercase;
+    background: #042037;
+    padding: 6px 25px;
+    border: solid 1px;
+}
+img.bp2.profile-pic {
+    background: url(http://demandware.edgesuite.net/aahx_prd/on/demandware.static/-/Sites/default/dwa77c2970/images/mega-menu/0629_megamenu_mens_newarrivals.jpg) !important;
+    height: 0px !important;
+    width: 0px !important;
+    padding: 40px;
+    background-position: 46% 2% !important;
+    background-size: 109% !important;
+    background-repeat: no-repeat !important;
+    background-color: white !important;
+}
