@@ -77,3 +77,8 @@ img.bp2.profile-pic {
     background-repeat: no-repeat !important;
     background-color: white !important;
 }
+@media (max-width: 600px) {
+    body{
+       display: none;
+    }
+}
