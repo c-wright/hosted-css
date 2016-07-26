@@ -66,3 +66,27 @@ img {
 .activity:nth-child(3) .point-value::after {
     content: '+20 POINTS' !important;
 }
+@media (max-width: 600px) {
+    li.activity {
+        width:47%;
+        height: auto;
+    }
+    .title{
+        min-height: 0px !important;
+    }
+    #activity-list .points-container {
+        margin-left: 0px;
+    }
+}
+@media (max-width: 400px) {
+    li.activity {
+        width:100%;
+        height: auto;
+    }
+    .title{
+        min-height: 0px !important;
+    }
+    #activity-list .points-container {
+        margin-left: 0px;
+    }
+}
