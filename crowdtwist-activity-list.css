@@ -50,3 +50,31 @@ h3{
     text-align: right;
     margin-bottom: 0px;
 }
+
+
+#activity-list .activity {
+    background: #f5f5f5;
+    border: none;
+    display: inline-block;
+    max-width: 30%;
+    margin: 0;
+    width: 100%;
+    vertical-align: top;
+}
+#activity-list .image-container {
+    float: none;
+    display: block;
+    height: auto;
+    width: auto;
+    background: transparent !important;
+    text-align: center;
+}
+#activity-list .image-container img {
+    width: 100%;
+    height: auto;
+}
+#activity-list .info-container {
+    display: block !important;
+    width: 100%;
+    max-width: none;
+}
