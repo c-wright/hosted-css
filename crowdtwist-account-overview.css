@@ -35,10 +35,14 @@ h3{
   line-height: 1.2;
 }
 #registration .container .content button {
-  font-family: "ProximaNova-Regular";
+  font-family: "ProximaNova-Bold";
   margin-top: 30px;
   width: 200px;
   border-radius: 2px;
+  background-color: #ff004f !important;
+}
+#registration .container .content button:hover{
+  background-color: #ff3f75 !important;
 }
 #registration .container .content .login {
     margin-top: 50px;
