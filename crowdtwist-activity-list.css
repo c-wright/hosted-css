@@ -114,3 +114,6 @@ li.activity::after {
     content: '\A';
     padding: 10px;
 }
+#activity-list .activity:hover {
+    background: transparent !important;
+}
