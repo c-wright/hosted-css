@@ -50,3 +50,57 @@ h3{
     text-align: right;
     margin-bottom: 0px;
 }
+
+#account-overview .header {
+    display: none !important;
+}
+#account-overview .user-container {
+    display: block;
+    padding: 0px;
+    text-align: center;
+}
+#account-overview .points-info, #account-overview .user-info {
+    display: block;
+    vertical-align: top;
+}
+.progress-bar-container {
+    display: none !important;
+}
+img.profile-pic {
+    background: url(https://media.giphy.com/media/Vuw9m5wXviFIQ/giphy.gif);    
+    padding: 50px !important;
+    background-size: cover !important;
+    background-position-x: -9px !important;
+    border-radius: 50% !important;
+}
+.name {
+    font-family: "ProximaNova-Regular";
+    font-size: 25px !important;
+    text-transform: none !important;
+    color: #333 !important;
+    margin-top: 12px;
+}
+img.icon {
+    display: none !important;
+}
+.fan-level .small::before {
+    content: 'Curent Level';
+    display: block;
+    font-weight: bold;
+    margin-top: 25px;
+    color: #333;
+}
+.small {
+    font-size: 18px;
+    color: #ff004f !important;
+}
+.points.ct-points-color {
+    color: #ff004f !important;
+}
+.points.ct-points-color.flash-points::before {
+    content: 'Points';
+    display: block;
+    font-weight: bold;
+    margin-top: 25px;
+    color: #333;
+}
