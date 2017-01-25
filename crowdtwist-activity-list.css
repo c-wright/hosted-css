@@ -117,3 +117,6 @@ li.activity::after {
 #activity-list .activity:hover {
     background: transparent !important;
 }
+#activity-list .unavailable img, #activity-list .unavailable .info-container, #activity-list .unavailable .point-value, #activity-list .locked img, #activity-list .locked .info-container, #activity-list .locked .point-value {
+    opacity: 1;
+}
