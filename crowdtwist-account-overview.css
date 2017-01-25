@@ -1,0 +1,35 @@
+.widget .header {
+  display: none;
+}
+.container {
+  background-image: none !important;
+}
+body{
+  font-family: "ProximaNova-Regular";
+  background: transparent;
+}
+#registration .container .content {
+  padding: 0px;
+  background-color: transparent;
+  font-family: "ProximaNova-Regular";
+  text-align: center;
+}
+.widget .container{
+  padding 20px;
+}
+h1, h3{
+  font-family: "ProximaNova-Regular";
+  padding-bottom: 0px;
+  text-align: left;
+}
+#registration .container .content button {
+  font-family: "ProximaNova-Regular";
+  margin-top: 30px;
+  width: 200px;
+  border-radius: 2px;
+}
+#registration .container .content .login {
+    margin-top: 50px;
+    text-align: right;
+    margin-bottom: 0px;
+}
