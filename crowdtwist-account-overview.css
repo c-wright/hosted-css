@@ -68,10 +68,9 @@ h3{
     display: none !important;
 }
 img.profile-pic {
-    background: url(https://media.giphy.com/media/Vuw9m5wXviFIQ/giphy.gif);    
-    padding: 50px !important;
+    background: url(http://crowdtwist.com/wp-content/uploads/2014/01/Scott-1-162x162.png);
+    padding: 72px !important;
     background-size: cover !important;
-    background-position-x: -9px !important;
     border-radius: 50% !important;
 }
 .name {
@@ -88,7 +87,7 @@ img.icon {
     content: 'Curent Level';
     display: block;
     font-weight: bold;
-    margin-top: 25px;
+    margin-top: 15px;
     color: #333;
 }
 .small {
@@ -97,11 +96,12 @@ img.icon {
 }
 .points.ct-points-color {
     color: #ff004f !important;
+    font-size: 18px !important;
 }
 .points.ct-points-color.flash-points::before {
     content: 'Points';
     display: block;
     font-weight: bold;
-    margin-top: 25px;
+    margin-top: 15px;
     color: #333;
 }
