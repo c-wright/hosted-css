@@ -1,0 +1,45 @@
+.header.ct-header-color {
+    background-color: #fff !important;
+    border: none;
+    position: relative;
+}
+.widget .header h3 {
+    padding: 10px 10px 0px;
+    color: #333 !important;
+    font-size: 20px;
+    font-family: "ProximaNova-Regular";
+    font-weight: 200;
+    line-height: 1.2;
+    text-transform: none;
+}
+.widget .container {
+    padding: 0px 20px 10px;
+}
+p.description {
+    font-size: 15px;
+    font-family: "ProximaNova-Regular";
+    margin-bottom: 20px;
+    border-bottom: solid 1px #a5a5a5;
+    padding-bottom: 20px;
+}
+label.question {
+    font-family: "ProximaNova-Regular";
+    font-size: 15px;
+}
+button.prev-btn, button.next-btn {
+    cursor: pointer;
+    color: #ff004f !important;
+}
+button.btn.btn-small.ct-button {
+    background-color: #ff004f !important;
+    border: none;
+    width: 120px;
+}
+button.btn.btn-small.ct-button:hover {
+    background-color: #ff3f75 !important;
+}
+#survey .submit-container {
+    float: none !important;
+    margin: 50px 0px 25px;
+    text-align: right;
+}
