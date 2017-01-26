@@ -1,0 +1,38 @@
+.header.ct-header-color {
+    background-color: #fff !important;
+    border: none;
+    position: relative;
+}
+.widget .header h3 {
+    color: transparent !important;
+    padding: 10px;
+}
+.widget .header h3::before {
+    content: 'Connect an Account';
+    color: #333;
+    font-size: 20px;
+    font-family: "ProximaNova-Regular";
+    font-weight: 200;
+    line-height: 1.2;
+    text-transform: none;
+}
+.widget .container {
+    padding: 10px 20px;
+}
+button.btn.connect.ct-button {
+    background-color: #ff004f !important;
+    border: none !important;
+    font-family: "ProximaNova-Regular";
+    font-weight: bold;
+    height: 100%;
+}
+button.btn.connect.ct-button:hover {
+    background-color: #ff3f75 !important;
+}
+.mobile {
+    font-family: "ProximaNova-Regular";
+    font-size: 18px;
+}
+.social-net-container {
+    padding: 5px 0px;
+}
