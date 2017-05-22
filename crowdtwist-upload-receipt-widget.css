@@ -54,3 +54,24 @@ h3{
 #upload-receipt .header {
     display: none !important;
 }
+
+#upload-receipt .container{
+    margin: 0px 20px;
+    background: whitesmoke;
+}
+
+#upload-receipt .container > p {
+    display: none;
+}
+
+#upload-receipt .container p {
+    font-size: 16px;
+}
+
+.btn {
+    background: #ff004f !important;
+    color: white !important;
+    border: 0px !important;
+    border-radius: 5px !important;
+    font-size: 12px !important;
+}
