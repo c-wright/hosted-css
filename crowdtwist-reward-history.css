@@ -68,3 +68,13 @@ h3{
     text-align: right;
     margin-bottom: 0px;
 }
+
+.btn {
+    background: #ff004f !important;
+    color: white !important;
+    border: 0px !important;
+    border-radius: 5px !important;
+    font-size: 12px !important;
+    text-align: center;
+    margin-top: 5px !important;
+}
