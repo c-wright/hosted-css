@@ -138,12 +138,3 @@ li.activity::after {
 #activity-list .unavailable img, #activity-list .unavailable .info-container, #activity-list .unavailable .point-value, #activity-list .locked img, #activity-list .locked .info-container, #activity-list .locked .point-value {
     opacity: 1;
 }
-.btn {
-    background: #ff004f !important;
-    color: white !important;
-    border: 0px !important;
-    border-radius: 5px !important;
-    font-size: 12px !important;
-    text-align: center;
-    margin-top: 5px !important;
-}
