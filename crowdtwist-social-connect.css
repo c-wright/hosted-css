@@ -36,3 +36,6 @@ button.btn.connect.ct-button:hover {
 .social-net-container {
     padding: 5px 0px;
 }
+#social-connect-widget button{
+    line-height: 24px !important
+}
