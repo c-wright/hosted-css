@@ -68,3 +68,17 @@ h3{
     text-align: right;
     margin-bottom: 0px;
 }
+
+#invite-friends .header {
+    display: none !important;
+}
+
+#invite-friends .container {
+    padding: 30px 20px 20px;
+    background: whitesmoke !important;
+    margin: 0px 20px !important;
+}
+
+body{
+    background: none !important;
+}
