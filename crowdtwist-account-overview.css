@@ -63,15 +63,15 @@ h3{
     display: block;
     vertical-align: top;
     width: 100%;
+    padding: 0px;
 }
 .progress-bar-container {
     display: none !important;
 }
 img.profile-pic {
-    background: url(http://crowdtwist.com/wp-content/uploads/2014/01/Scott-1-162x162.png);
-    padding: 72px !important;
-    background-size: cover !important;
     border-radius: 50% !important;
+    width: 140px !important;
+    height: 140px !important;
 }
 .name {
     font-family: "ProximaNova-Regular";
