@@ -82,3 +82,19 @@ body {
         vertical-align: middle;
     }
 }
+
+@media(min-width:1850px) {
+    #registration .content button {
+        width: auto !important;
+        min-width: 320px;
+        font-size: 26px;
+        margin-right: 120px;
+        padding: 12px;
+    }
+    #registration .login a {
+        width: 320px;
+        font-size: 26px;
+        padding: 15px 0px 9px;
+        vertical-align: middle;
+    }
+}
