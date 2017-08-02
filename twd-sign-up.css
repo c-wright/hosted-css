@@ -27,28 +27,28 @@ body {
 
 #registration .login a {
     display: inline-block;
-    width: 180px;
+    width: 240px;
     color: #000000;
     background: #d7df59;
-    font-size: 16px;
+    font-size: 20px;
     text-transform: uppercase;
     text-align: center;
     text-decoration: none !important;
     vertical-align: middle;
-    padding: 12px 0px 8px;
+    padding: 17px 0px 12px;
 }
 
 #registration .content button {
     display: inline-block;
-    min-width: 180px;
+    min-width: 240px;
     color: #000000;
     background: #ffffff;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: bold;
     text-transform: uppercase;
     text-align: center;
     border: none;
     margin-right: 50px;
     vertical-align: middle;
-    padding: 10px;
+    padding: 14px;
 }
