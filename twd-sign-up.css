@@ -52,3 +52,33 @@ body {
     vertical-align: middle;
     padding: 14px;
 }
+
+@media(max-width:625px) {
+    #registration {
+        overflow: hidden;
+    }
+    #registration .content {
+        padding: 0px !important;
+        margin-left: 2px;
+        min-width: 310px;
+        overflow: hidden;
+    }
+    #registration .container {
+        padding: 0px !important;
+        min-width: 310px;
+        overflow: hidden;
+    }
+    #registration .content button {
+        width: auto !important;
+        min-width: 140px;
+        font-size: 15px;
+        margin-right: 20px;
+        padding: 12px;
+    }
+    #registration .login a {
+        width: 140px;
+        font-size: 15px;
+        padding: 15px 0px 9px;
+        vertical-align: middle;
+    }
+}
