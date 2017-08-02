@@ -1,0 +1,53 @@
+* {
+    font-family: 'Avenir Next LT for AMC', sans-serif;
+}
+
+body {
+    background: transparent;
+}
+
+#registration .header, #registration h1, #registration h3, .login span {
+    display: none !important;
+}
+
+#registration .container {
+    background-image: none !important;
+}
+
+#registration .content {
+    float: none !important;
+    width: 100% !important;
+    background: none !important;
+}
+
+#registration .login {
+    display: inline-block;
+}
+
+#registration .login a {
+    display: inline-block;
+    width: 180px;
+    color: #000000;
+    background: #d7df59;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none !important;
+    vertical-align: middle;
+    padding: 12px 0px 8px;
+}
+
+#registration .content button {
+    display: inline-block;
+    min-width: 180px;
+    color: #000000;
+    background: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    border: none;
+    margin-right: 50px;
+    vertical-align: middle;
+    padding: 10px;
+}
