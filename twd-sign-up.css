@@ -98,3 +98,30 @@ body {
         vertical-align: middle;
     }
 }
+
+/* Just Join Button, Bottom Landing Page */
+@media(max-width:250px) {
+    #registration .content button {
+        width: 100% !important;
+        font-size: 26px;
+    }
+    #registration .login a {
+        display: none;
+    }
+    #registration .content {
+        margin-left: 0px;
+        min-width: 100%;
+    }
+    #registration .container {
+        padding: 0px !important;
+        min-width: 100%;
+        overflow: hidden;
+    }
+    #registration .content button {
+        color: #000000;
+        background: #d7df59;
+    }
+    html{
+        overflow-y: auto !important;
+    }
+}
