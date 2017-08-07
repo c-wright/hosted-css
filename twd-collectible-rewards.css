@@ -1,0 +1,132 @@
+
+.header {
+    color: #FFFFFF !important;
+    background: transparent !important;
+    display: block !important;
+    position: inherit !important;
+    padding-left: 25px !important;
+    font-family: 'Avenir Next LT for AMC', sans-serif !important;
+    margin-bottom: 15px;
+}
+
+.header h3 {
+    text-transform: uppercase !important;
+    font-weight: 900 !important;
+    font-size: 46px !important;
+    line-height: inherit !important;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+body {
+    background: transparent !important;
+    width: 100% !important;
+}
+
+.reward {
+    width: 33.3% !important;
+    display: inline-block !important;
+    float: none !important;
+    margin: auto !important;
+    position: relative;
+    border: none !important;
+    padding: 15px 16px;
+}
+
+.reward img {
+    height: 22vw;
+    object-fit: cover;
+}
+
+.reward:nth-child(3n+1) {
+    padding: 15px 25px 15px 7px
+}
+
+.reward:nth-child(3n-1) {
+    padding: 15px 7px 15px 25px
+}
+
+.reward:nth-child(3n+1) .content{
+    left: 10px;
+}
+
+.reward:nth-child(3n-1) .content {
+    left: 30px
+}
+
+.reward:nth-child(1) {
+    width: 100% !important;
+    padding: 0px;
+}
+
+.reward:nth-child(1) img {
+    height: 42vw;
+    object-fit: cover;
+}
+
+.reward:nth-child(1) a.title{
+    font-size: 32px !important
+}
+
+.content {
+    position: absolute;
+    bottom: 15px;
+    left: 20px;
+    z-index: 3;
+}
+
+.content .row:nth-child(2) {
+    display: none !important;
+}
+
+a.title {
+    height: auto !important;
+    color: #FFFFFF !important;
+    font-size: 20px !important;
+    text-decoration: none !important;
+    font-weight: normal !important;
+}
+
+.reward::before {
+    content: '';
+    display: block;
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiP…B3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=) 0 0/100%;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.15) 60%, rgba(0,0,0,.45) 100%);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    z-index: 2;
+}
+
+.points {
+    float: none !important;
+    background: #D7DF58 !important;
+    padding: 5px 10px;
+}
+
+p.ct-points-color {
+    color: #000000 !important;
+    font-weight: bold;
+    font-size: 16px !important;
+    text-transform: uppercase !important;
+}
+
+.row {
+    height: auto !important;
+    display: inline-block !important;
+}
+
+.rewards {
+    width: 100% !important;
+}
+
+.container {
+    padding: 0px !important;
+    display: block !important;
+}
+
+html {
+    overflow: auto !important;
+}
