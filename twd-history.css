@@ -48,10 +48,12 @@ table tbody:before {
 }
 
 .btn.show-more {
-    background: #D7DF59 !important;
-    color: #000000;
+    background: transparent !important;
+    color: #D7DF59 !important;
     width: 150px !important;
     margin-top: 20px !important;
     text-align: center;
     border: none !important;
+    font-size: 14px;
+    font-weight: bold;
 }
