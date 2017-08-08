@@ -1,0 +1,44 @@
+.header {
+    color: #FFFFFF !important;
+    background: transparent !important;
+    display: block !important;
+    position: inherit !important;
+    padding-left: 20px !important;
+    font-family: 'Avenir Next LT for AMC', sans-serif !important;
+    border: none !important;
+}
+
+.header h3 {
+    text-transform: uppercase !important;
+    font-weight: 900 !important;
+    font-size: 46px !important;
+    line-height: inherit !important;
+    margin: 0px !important;
+    padding: 0px !important;
+    text-align: center !important;
+}
+
+body {
+    background: transparent !important;
+    width: 100% !important;
+}
+
+.container {
+    padding: 20px !important;
+}
+
+th {
+    color: #ffffff !important;
+}
+
+td {
+    color: #ffffff !important;
+}
+
+td.desktop.points.ct-points-color {
+    color: #D7DF59 !important;
+}
+
+table tbody:before {
+    content: '' !important;
+}
