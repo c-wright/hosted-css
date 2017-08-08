@@ -1,0 +1,112 @@
+@font-face {
+    font-family: 'Avenir Next LT for AMC';
+    src: url("https://d3tdkvfstzj7gy.cloudfront.net/fonts/AvenirNextLTforAMC/AvenirNextLTforAMC-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'Avenir Next LT for AMC';
+    font-weight: bold;
+    src: url("https://d3tdkvfstzj7gy.cloudfront.net/fonts/AvenirNextLTforAMC/AvenirNextLTforAMC-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'Avenir Next LT for AMC';
+    font-weight: 900;
+    src: url("https://d3tdkvfstzj7gy.cloudfront.net/fonts/AvenirNextLTforAMC/AvenirNextLTforAMC-Heavy.otf") format("opentype");
+}
+
+* {
+  font-family: 'Avenir Next LT for AMC', sans-serif !important;
+  color: #FFFFFF;
+}
+
+.header {
+    color: #FFFFFF !important;
+    background: transparent !important;
+    display: block !important;
+    position: inherit !important;
+    padding-left: 25px !important;
+    font-family: 'Avenir Next LT for AMC', sans-serif !important;
+}
+
+.header h3 {
+    text-transform: uppercase !important;
+    font-weight: 900 !important;
+    font-size: 42px !important;
+    line-height: inherit !important;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+body {
+    background: transparent !important;
+    width: 100% !important;
+}
+
+html {
+    overflow: auto !important;
+}
+
+.container {
+    padding: 0px 15px !important;
+}
+
+li.activity {
+    display: inline-block;
+    width: 33.3%;
+    background: none !important;
+    padding: 10px !important;
+    border: none !important;
+    vertical-align: top;
+    margin: 0px !important;
+    position: relative;
+}
+
+.image-container {
+    float: none !important;
+    background: none !important;
+    border-radius: 0px !important;
+    width: 100% !important;
+    height: auto !important;
+}
+
+.image-container img {
+    width: 100%;
+    height: 20vw;
+    object-fit: cover;
+    padding: 0px !important;
+}
+
+.info-container {
+    position: absolute;
+    bottom: 60px;
+    left: 10px;
+    max-width: 80% !important;
+}
+
+.description {
+    display: none !important;
+}
+
+.info-container .title {
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 24px !important;
+}
+
+.points-container {
+    position: absolute;
+    bottom: 25px;
+    left: 20px;
+    background: #D7DF59 !important;
+    text-align: center !important;
+    float: none !important;
+    padding: 8px 10px 5px !important;
+}
+
+.point-value {
+    color: #000000 !important;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
