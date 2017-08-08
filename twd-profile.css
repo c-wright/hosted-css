@@ -53,7 +53,7 @@
     width: 140px;
     font-size: 12px !important;
     text-transform: uppercase;
-    color: #D7DF59;
+    color: #D7DF59 !important;
     font-weight: bold;
 }
 
