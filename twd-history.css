@@ -51,18 +51,22 @@ body {
 
 th {
     color: #ffffff !important;
+    font-size: 16px !important;
 }
 
 td {
     color: #ffffff !important;
+    font-size: 16px !important;
 }
 
 td.desktop.points.ct-points-color {
     color: #D7DF59 !important;
+    font-size: 16px !important;
 }
 
 .points span {
     color: #D7DF59 !important;
+    font-size: 16px !important;
 }
 
 table tbody:before {
@@ -79,3 +83,9 @@ table tbody:before {
     font-size: 14px;
     font-weight: bold;
 }
+
+td p.title span {
+    font-size: 16px !important;
+}
+
+
