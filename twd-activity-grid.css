@@ -70,7 +70,7 @@ li.activity {
     height: auto !important;
 }
 
-.image-container::before {
+.activity::before {
     content: '';
     display: block;
     background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiP…B3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=) 0 0/100%;
@@ -82,6 +82,10 @@ li.activity {
     position: absolute;
     z-index: 2;
     pointer-events: none;
+}
+
+.activity:hover:before {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.15) 60%, rgba(0,0,0,.25) 100%);
 }
 
 .image-container img {
