@@ -1,0 +1,93 @@
+.header {
+    color: #FFFFFF !important;
+    background: transparent !important;
+    display: block !important;
+    position: inherit !important;
+    padding-left: 25px !important;
+    font-family: 'Avenir Next LT for AMC', sans-serif !important;
+}
+
+.header h3 {
+    text-transform: uppercase !important;
+    font-weight: 900 !important;
+    font-size: 46px !important;
+    line-height: inherit !important;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+body {
+    background: transparent !important;
+    width: 100% !important;
+}
+
+li.activity {
+    background: none !important;
+    border: none !important;
+    padding: 0px !important;
+    position: relative;
+    margin: 0px !important;
+}
+
+.image-container {
+    background: none !important;
+    border-radius: 0px !important;
+    height: 45vw !important;
+    width: 100% !important;
+}
+
+html {
+    overflow: auto !important;
+}
+
+img {
+    padding: 0px !important;
+    width: 100%;
+    object-fit: cover;
+    height: 100% !important;
+    object-position: 0px 0px;
+}
+
+.container {
+    padding: 0px !important;
+}
+
+.info-container {
+    position: absolute;
+    bottom: 55px;
+    left: 20px;
+    padding: 0px !important;
+    max-width: 100% !important;
+}
+
+.points-container {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    float: none !important;
+    text-align: left !important;
+    min-width: 0px !important;
+    background: #D7DF58 !important;
+    padding: 5px 10px;
+}
+
+.point-value.ct-points-color {
+    color: #000000 !important;
+    font-weight: bold !important;
+    text-transform: uppercase !important;
+    font-size: 16px !important;
+}
+
+.title {
+    color: #ffffff !important;
+    font-size: 32px;
+    font-weight: normal !important;
+    line-height: initial !important;
+}
+
+.description {
+    color: #ffffff !important;
+    font-size: 17px;
+    max-width: 65%;
+    line-height: initial !important;
+}
