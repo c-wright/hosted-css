@@ -33,7 +33,7 @@
 .header h3 {
     text-transform: uppercase !important;
     font-weight: 900 !important;
-    font-size: 46px !important;
+    font-size: 42px !important;
     line-height: inherit !important;
     margin: 0px !important;
     padding: 0px !important;
@@ -88,4 +88,6 @@ td p.title span {
     font-size: 16px !important;
 }
 
-
+tbody tr:first-child td {
+    padding-top: 10px !important;
+}
