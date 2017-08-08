@@ -1,6 +1,25 @@
-* {
-    font-family: 'Avenir Next LT for AMC', sans-serif;
+@font-face {
+    font-family: 'Avenir Next LT for AMC';
+    src: url("https://d3tdkvfstzj7gy.cloudfront.net/fonts/AvenirNextLTforAMC/AvenirNextLTforAMC-Regular.otf") format("opentype");
 }
+
+@font-face {
+    font-family: 'Avenir Next LT for AMC';
+    font-weight: bold;
+    src: url("https://d3tdkvfstzj7gy.cloudfront.net/fonts/AvenirNextLTforAMC/AvenirNextLTforAMC-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'Avenir Next LT for AMC';
+    font-weight: 900;
+    src: url("https://d3tdkvfstzj7gy.cloudfront.net/fonts/AvenirNextLTforAMC/AvenirNextLTforAMC-Heavy.otf") format("opentype");
+}
+
+* {
+  font-family: 'Avenir Next LT for AMC', sans-serif !important;
+  color: #FFFFFF;
+}
+
 
 body {
     background: transparent;
