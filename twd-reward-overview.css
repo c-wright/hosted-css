@@ -32,7 +32,7 @@
 .header h3 {
     text-transform: uppercase !important;
     font-weight: 900 !important;
-    font-size: 46px !important;
+    font-size: 42px !important;
     line-height: inherit !important;
     margin: 0px !important;
     padding: 0px !important;
@@ -72,7 +72,8 @@ a.title {
     color: #FFFFFF !important;
     font-size: 22px !important;
     text-decoration: none !important;
-    font-weight: normal !important;
+    font-weight: bold !important;
+    margin-right: 10px;
 }
 
 .reward::before {
