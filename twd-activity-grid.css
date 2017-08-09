@@ -108,7 +108,7 @@ li.activity {
 }
 
 .info-container .title {
-    color: #ffffff;
+    color: #ffffff !important;
     font-size: 20px;
     line-height: 24px !important;
 }
