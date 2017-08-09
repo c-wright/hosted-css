@@ -47,7 +47,7 @@ body {
 #registration .login a {
     display: inline-block;
     width: 240px;
-    color: #000000;
+    color: #000000 !important;
     background: #d7df59;
     font-size: 20px;
     text-transform: uppercase;
@@ -60,8 +60,8 @@ body {
 #registration .content button {
     display: inline-block;
     min-width: 240px;
-    color: #000000;
-    background: #ffffff;
+    color: #000000 !important;
+    background: #ffffff !important;
     font-size: 20px;
     font-weight: bold;
     text-transform: uppercase;
