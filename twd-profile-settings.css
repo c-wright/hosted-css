@@ -106,6 +106,7 @@ select {
     border: none !important;
     border-bottom: solid 1px #d7df59 !important;
     border-radius: 0px !important;
+    padding: 0px !important;
 }
 
 input:focus, select:focus {
@@ -114,4 +115,13 @@ input:focus, select:focus {
 
 .account-settings .edit[disabled] {
     color: #888 !important;
+}
+
+@media(max-width: 570px) {
+    body {
+        padding: 20px 20px;
+    }
+    .account-settings .input-group {
+        width: 100% !important;
+    }
 }
