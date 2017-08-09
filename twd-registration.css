@@ -56,18 +56,25 @@ html {
     width: 425px !important;
 }
 
-.sign-up button {
+.sign-up button, .log-in button {
     width: 275px !important;
     font-weight: 600 !important;
     line-height: 45px !important;
 }
 
-.sign-up i {
+.sign-up i, .log-in i {
     display: none;
 }
 
-.sign-up {
+.sign-up, .log-in {
     text-align: center;
+}
+
+.log-in button[type=submit] {
+    padding: 0px !important;
+    margin: 20px 0px 40px !important;
+    background: #D7DF59 !important;
+    border: none !important;
 }
 
 p.log-in-link {
@@ -90,5 +97,17 @@ button.btn.btn-email.ct-button {
 }
 
 .btn.btn-email span {
+    color: #000000 !important;
+}
+
+label {
+    text-align: left !important;
+}
+
+input, select {
+    color: #000 !important;
+}
+
+.log-in button[type=submit] span {
     color: #000000 !important;
 }
