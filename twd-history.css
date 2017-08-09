@@ -91,3 +91,15 @@ td p.title span {
 tbody tr:first-child td {
     padding-top: 10px !important;
 }
+
+@media(max-width: 768px) {
+    .header h3 {
+        font-size: 34px !important
+    }
+}
+
+@media(max-width: 400px) {
+    .header h3 {
+        font-size: 28px !important
+    }
+}
