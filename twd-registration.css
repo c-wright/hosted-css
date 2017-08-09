@@ -134,3 +134,7 @@ input, select {
 a {
     color: #D7DF59 !important;
 }
+
+.notification.notification-error span {
+    color: #a20114 !important;
+}
