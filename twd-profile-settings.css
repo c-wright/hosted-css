@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'Avenir Next LT for AMC';
+    src: url("https://d3tdkvfstzj7gy.cloudfront.net/fonts/AvenirNextLTforAMC/AvenirNextLTforAMC-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'Avenir Next LT for AMC';
+    font-weight: bold;
+    src: url("https://d3tdkvfstzj7gy.cloudfront.net/fonts/AvenirNextLTforAMC/AvenirNextLTforAMC-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'Avenir Next LT for AMC';
+    font-weight: 900;
+    src: url("https://d3tdkvfstzj7gy.cloudfront.net/fonts/AvenirNextLTforAMC/AvenirNextLTforAMC-Heavy.otf") format("opentype");
+}
+
+* {
+  font-family: 'Avenir Next LT for AMC', sans-serif !important;
+  color: #FFFFFF;
+}
+
+.header {
+    color: #FFFFFF !important;
+    background: transparent !important;
+    display: block !important;
+    position: inherit !important;
+    font-family: 'Avenir Next LT for AMC', sans-serif !important;
+    padding: 0px !important;
+}
+
+.header h3 {
+    text-transform: uppercase !important;
+    font-weight: 600 !important;
+    font-size: 24px !important;
+    line-height: inherit !important;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+body {
+    background: #000000 !important;
+    width: 100% !important;
+    border: solid 1px #3a3a3c;
+    padding: 20px 40px;
+}
+
+html {
+    overflow: auto !important;
+}
+
+.container {
+    padding: 20px 0px !important;
+}
+
+.account-settings .primary-settings .edit {
+    top: -45px;
+    right: 0px;
+    color: #D7DF59 !important;
+    text-transform: uppercase;
+    font-size: 12px !important;
+}
+
+form {
+    position: relative;
+}
+
+.secondary-settings button.edit {
+    top: 20px;
+    right: 0px;
+    color: #D7DF59 !important;
+    text-transform: uppercase;
+    font-size: 12px !important;
+}
+
+button.cancel {
+    background: none !important;
+    color: #d7df59 !important;
+    border: none !important;
+    font-weight: 600 !important;
+    padding: 0px !important;
+    padding-right: 20px !important;
+}
+
+button.save {
+    color: #000 !important;
+    font-weight: 600 !important;
+    border: 0px !important;
+    padding: 7px 20px 4px;
+}
+
+input {
+    background: none !important;
+    border: none !important;
+    border-bottom: solid 1px #d7df59 !important;
+    padding-left: 0px !important;
+    border-radius: 0px !important;
+}
+
+.account-settings .input-group {
+    width: 46% !important;
+}
+
+select {
+    background: none !important;
+    border: none !important;
+    border-bottom: solid 1px #d7df59 !important;
+    border-radius: 0px !important;
+}
+
+input:focus, select:focus {
+    outline: none !important;
+}
+
+.account-settings .edit[disabled] {
+    color: #888 !important;
+}
