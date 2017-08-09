@@ -111,3 +111,26 @@ input, select {
 .log-in button[type=submit] span {
     color: #000000 !important;
 }
+
+#sign-up .btn-group button[type=submit] {
+    background: #D7DF59 !important;
+    border: solid 1px #D7DF59 !important;
+    border-bottom-width: 2px !important;
+}
+
+#sign-up .btn-group button[type=submit] span {
+    color: #000 !important;
+}
+
+#sign-up button, span {
+    font-weight: 600 !important;
+}
+
+#sign-up .btn-group button {
+    border-top-width: 2px;
+    border-color: #e9e9e9 !important;
+}
+
+a {
+    color: #D7DF59 !important;
+}
