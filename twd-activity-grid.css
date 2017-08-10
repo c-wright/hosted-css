@@ -111,6 +111,7 @@ li.activity {
     color: #ffffff !important;
     font-size: 20px;
     line-height: 24px !important;
+    font-weight: normal !important;
 }
 
 .points-container {
@@ -129,4 +130,62 @@ li.activity {
     font-size: 16px;
     font-weight: bold;
     text-transform: uppercase;
+}
+
+@media(max-width: 768px) {
+    .header {
+        padding-left: 5px !important;
+    }
+    
+    .header h3 {
+        font-size: 34px !important;
+        text-align: center;
+    }
+
+    li.activity {
+        width: 100%;
+        padding: 10px 30px !important;
+    }
+
+    .image-container img {
+        height: 51vw;
+    }
+
+    .points-container {
+        bottom: 25px !important;
+        margin-left: 0px !important;
+        padding: 5px 10px 2px !important;
+        left: 40px !important;
+    }
+    .points-container .point-value {
+        font-size: 16px !important;
+    }
+    .info-container {
+        bottom: 45px !important;
+        left: 30px !important;
+    }
+    .title {
+        font-size: 24px !important;
+        max-width: 95%;
+        margin-bottom: 10px !important;
+        font-weight: normal !important;
+    }
+}
+
+@media(max-width: 450px) {
+    .header h3 {
+        font-size: 28px !important;
+    }
+    .points-container {
+        left: 35px !important;
+    }
+    .points-container .point-value {
+        font-size: 14px !important;
+    }
+    .info-container {
+        left: 25px !important;
+    }
+    .title {
+        font-size: 20px !important;
+    }
 }
