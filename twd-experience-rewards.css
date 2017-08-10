@@ -124,3 +124,45 @@ p.ct-points-color {
 html {
     overflow: auto !important;
 }
+
+@media(max-width: 768px) {
+    .header {
+        padding-left: 5px !important;
+    }
+    
+    .header h3 {
+        font-size: 34px !important;
+        text-align: center;
+    }
+    .reward {
+        width: 100% !important;
+        height: 58vw !important;
+        padding: 10px 30px !important;
+    }
+
+    .content {
+        left: 35px !important;
+    }
+    .points {
+        padding: 5px 10px 2px !important;
+    }
+    p.ct-points-color {
+        font-size: 16px !important;
+    }
+    a.title {
+        font-size: 24px !important;
+        margin-bottom: 5px !important;
+    }
+}
+
+@media(max-width: 450px) {
+    .header h3 {
+        font-size: 28px !important;
+    }
+    a.title {
+        font-size: 20px !important;
+    }
+    p.ct-points-color {
+        font-size: 14px !important;
+    }
+}
