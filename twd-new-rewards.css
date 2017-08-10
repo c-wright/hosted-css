@@ -32,7 +32,7 @@
 .header h3 {
     text-transform: uppercase !important;
     font-weight: 900 !important;
-    font-size: 46px !important;
+    font-size: 42px !important;
     line-height: inherit !important;
     margin: 0px !important;
     padding: 0px !important;
@@ -41,9 +41,6 @@
 body {
     background: transparent !important;
     width: 100% !important;
-    /* position: relative !important; */
-    /* display: block !important; */
-    /* box-sizing: border-box !important; */
 }
 
 .reward {
@@ -64,6 +61,7 @@ img {
     position: absolute;
     bottom: 20px;
     left: 20px;
+    width: 95%;
     z-index: 3;
 }
 
@@ -126,4 +124,58 @@ p.ct-points-color {
 
 html {
     overflow: auto !important;
+}
+
+@media(max-width: 768px) {
+    .header {
+        padding-left: 5px !important;
+    }
+    
+    .header h3 {
+        font-size: 34px !important;
+        text-align: center;
+    }
+
+    li.activity {
+        width: 100%;
+        padding: 10px 30px !important;
+    }
+
+    .image-container img {
+        height: 51vw;
+    }
+
+    .points {
+        padding: 5px 10px 2px !important;
+    }
+    p.ct-points-color {
+        font-size: 16px !important;
+    }
+    .content {
+        bottom: 0px !important;
+        left: 15px !important;
+    }
+    a.title {
+        font-size: 24px !important;
+        margin-bottom: 5px !important;
+    }
+    img {
+        height: 58vw;
+        object-fit: cover;
+    }
+}
+
+@media(max-width: 450px) {
+    .header h3 {
+        font-size: 28px !important;
+    }
+    .content {
+        left: 5px !important;
+    }
+    a.title {
+        font-size: 20px !important;
+    }
+    p.ct-points-color {
+        font-size: 14px !important;
+    }
 }
