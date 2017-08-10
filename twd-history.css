@@ -98,12 +98,12 @@ tbody tr:first-child td {
     }
     
     .header h3 {
-        font-size: 34px !important
+        font-size: 34px !important;
     }
 }
 
 @media(max-width: 400px) {
     .header h3 {
-        font-size: 28px !important
+        font-size: 28px !important;
     }
 }
