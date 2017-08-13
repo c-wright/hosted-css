@@ -135,6 +135,14 @@ img {
     line-height: initial !important;
 }
 
+.activity .completed i {
+  display: none;
+}
+
+.activity .completed {
+  text-decoration: line-through;
+}
+
 @media(max-width: 768px) {
     .header {
         padding-left: 5px !important;
