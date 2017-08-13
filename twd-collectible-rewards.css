@@ -177,15 +177,15 @@ html {
     }
 
     .content {
-        left: 35px !important;
+        left: 47px !important;
     }
 
     .reward:nth-child(3n+1) .content{
-        left: 35px !important;
+        left: 47px !important;
     }
 
     .reward:nth-child(3n-1) .content {
-        left: 35px !important;
+        left: 47px !important;
     }
     .reward:nth-child(3n+1) {
         padding: 10px 42px !important;
