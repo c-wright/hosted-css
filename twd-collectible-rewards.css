@@ -60,11 +60,11 @@ body {
 }
 
 .reward:nth-child(3n+1) {
-    padding: 15px 25px 15px 7px
+    padding: 15px 25px 15px 7px;
 }
 
 .reward:nth-child(3n-1) {
-    padding: 15px 7px 15px 25px
+    padding: 15px 7px 15px 25px;
 }
 
 .reward:nth-child(3n+1) .content{
@@ -72,7 +72,7 @@ body {
 }
 
 .reward:nth-child(3n-1) .content {
-    left: 30px
+    left: 30px;
 }
 
 .reward:nth-child(1) {
@@ -86,7 +86,7 @@ body {
 }
 
 .reward:nth-child(1) a.title{
-    font-size: 32px !important
+    font-size: 32px !important;
 }
 
 .content {
@@ -155,4 +155,88 @@ p.ct-points-color {
 
 html {
     overflow: auto !important;
+}
+
+@media(max-width: 768px) {
+    .header {
+        padding-left: 5px !important;
+    }
+    
+    .header h3 {
+        font-size: 34px !important;
+        text-align: center;
+    }
+
+    .reward {
+        width: 100% !important;
+        padding: 10px 42px !important;
+    }
+
+    .reward img {
+        height: 58vw !important;
+    }
+
+    .content {
+        left: 35px !important;
+    }
+
+    .reward:nth-child(3n+1) .content{
+        left: 35px !important;
+    }
+
+    .reward:nth-child(3n-1) .content {
+        left: 35px !important;
+    }
+    .reward:nth-child(3n+1) {
+        padding: 10px 42px !important;
+    }
+
+    .reward:nth-child(3n-1) {
+        padding: 10px 42px !important;
+    }
+
+    .reward:nth-child(1) {
+        padding: 0px !important;
+    }
+
+    .reward:nth-child(1) .content {
+        left: 10px !important;
+        bottom: 0px !important;
+    }
+
+    .points {
+        padding: 5px 10px 2px !important;
+    }
+
+    p.ct-points-color {
+        font-size: 16px !important;
+    }
+
+    a.title {
+        font-size: 24px !important;
+        margin-bottom: 5px !important;
+        display: inline-block !important;
+        margin-bottom: 0px !important;
+        width: 90%;
+    }
+
+    .reward:nth-child(1) a.title {
+        font-size: 24px !important;
+    }
+}
+
+@media(max-width: 450px) {
+    .header h3 {
+        font-size: 28px !important;
+    }
+    a.title {
+        font-size: 20px !important;
+        display: inline-block !important;
+    }
+    .reward:nth-child(1) a.title {
+        font-size: 20px !important;
+    }
+    p.ct-points-color {
+        font-size: 14px !important;
+    }
 }
