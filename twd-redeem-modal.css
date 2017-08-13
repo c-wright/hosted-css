@@ -53,7 +53,7 @@ html {
     padding: 20px 0px !important;
 }
 
-#details, #review {
+#details, #review, #confirmation {
     font-size: 0;
 }
 
@@ -82,7 +82,7 @@ html {
 }
 
 .redemption-details select {
-    min-width: 100px;
+    min-width: 100px
 }
 
 #redeem #details .description {
@@ -119,13 +119,18 @@ input:focus, select:focus {
     color: #D7DF59 !important;
 }
 
-button.btn.btn-secondary {
+button.btn.btn-secondary, a.btn.btn-secondary {
     background: none;
     border: none;
     color: #D7DF59;
 }
 
-button.btn.btn-secondary:hover {
+a.btn.btn-secondary {
+    padding: 0px;
+    font-weight: bold;
+}
+
+button.btn.btn-secondary:hover, a.btn.btn-secondary:hover {
     background: none;
     color: #D7DF59;   
 }
