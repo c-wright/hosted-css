@@ -51,7 +51,7 @@ body {
     position: relative;
     border: none !important;
     padding: 8px 10px;
-    height: 35vw !important;
+    height: 25vw !important;
 }
 
 img {object-fit: cover;height: 100%;border: 1px solid #3d3d3a;}
