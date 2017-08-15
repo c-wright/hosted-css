@@ -110,6 +110,10 @@ button.btn.btn-secondary:hover, a.btn.btn-secondary:hover {
     margin: 0px !important;
 }
 
+#survey .image-enabled .image-wrapper img {
+    object-fit: cover;
+}
+
 #survey .nav-btns button {
     color: #D7DF59 !important;
 }
