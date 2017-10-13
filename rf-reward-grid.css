@@ -60,6 +60,7 @@ a.title {
   font-size: 22px !important;
   text-decoration: none !important;
   font-weight: normal !important;
+  max-width: 95%;
 }
 
 .reward::before {
@@ -74,6 +75,7 @@ a.title {
   position: absolute;
   z-index: 2;
   pointer-events: none;
+  margin: 8px;
 }
 
 .reward:hover:before {
