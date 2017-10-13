@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+* {
+  font-family: 'Oswald', sans-serif !important;
+}
+
+.header {
+  background: transparent !important;
+  display: block !important;
+  position: inherit !important;
+  padding-left: 20px !important;
+  font-family: 'Avenir Next LT for AMC', sans-serif !important;
+  border: none !important;
+}
+
+.header h3 {
+  text-transform: uppercase !important;
+  font-weight: 900 !important;
+  font-size: 42px !important;
+  line-height: inherit !important;
+  margin: 0px !important;
+  padding: 0px !important;
+  text-align: center !important;
+}
+
+body {
+  background: transparent !important;
+  width: 100% !important;
+}
+
+.container {
+  padding: 20px !important;
+}
+
+th {
+  color: #000 !important;
+  font-size: 16px !important;
+}
+
+td {
+  color: #000 !important;
+  font-size: 16px !important;
+}
+
+td.desktop.points.ct-points-color {
+  color: #3a688c !important;
+  font-size: 16px !important;
+}
+
+.points span {
+  color: #3a688c !important;
+  font-size: 16px !important;
+}
+
+table tbody:before {
+  content: '' !important;
+}
+
+.btn.show-more {
+  background: transparent !important;
+  color: #3a688c !important;
+  width: 150px !important;
+  margin-top: 20px !important;
+  text-align: center;
+  border: none !important;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+td p.title span {
+  font-size: 16px !important;
+}
+
+tbody tr:first-child td {
+  padding-top: 10px !important;
+}
+
+@media(max-width: 768px) {
+  .header {
+    padding-left: 5px !important;
+  }
+  .header h3 {
+    font-size: 34px !important;
+  }
+}
+
+@media(max-width: 400px) {
+  .header h3 {
+    font-size: 28px !important;
+  }
+}
