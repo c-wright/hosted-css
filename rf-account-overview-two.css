@@ -1,0 +1,11 @@
+.header {
+    display: none !important;
+}
+
+.container {
+    min-height: 200px;
+}
+
+.info-toggle {
+    display: none !important;
+}
