@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+* {
+    font-family: 'Oswald', sans-serif;
+}
+
 .header {
     display: none !important;
 }
@@ -8,4 +14,16 @@
 
 .info-toggle {
     display: none !important;
+}
+
+.name {
+    font-size: 22px !important;
+}
+
+.lifetime-points {
+    font-size: 22px !important;
+}
+
+.title {
+    font-size: 22px !important;
 }
