@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+.header {
+    display: none !important;
+}
+
+.content {
+    float: left !important;
+    min-height: 450px;
+}
+
+.container {
+    background-size: contain !important;
+    background-position: right;
+}
+
+h1.heading {
+    font-size: 36px;
+    line-height: initial;
+    font-family: 'Oswald', sans-serif !important;
+}
