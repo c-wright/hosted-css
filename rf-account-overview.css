@@ -19,3 +19,9 @@ h1.heading {
     line-height: initial;
     font-family: 'Oswald', sans-serif !important;
 }
+
+h3.description {
+    font-family: 'Oswald', sans-serif !important;
+    font-size: 24px !important;
+    margin-bottom: 40px !important
+}
