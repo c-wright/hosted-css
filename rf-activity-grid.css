@@ -138,7 +138,7 @@ li.activity {
   line-height: 1.2;
 }
 
-i.fa.fa-lock {
+i.fa.fa-lock, i.fa.fa-clock-o {
   font-family: 'FontAwesome' !important;
 }
 
