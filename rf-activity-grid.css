@@ -31,7 +31,7 @@ html {
 }
 
 .container {
-  padding: 0px 15px !important;
+  padding: 30px 15px !important;
 }
 
 li.activity {
@@ -53,6 +53,24 @@ li.activity {
   height: auto !important;
 }
 
+.activity::before {
+  content: '';
+  display: block;
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPâ€¦B3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=) 0 0/100%;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.15) 60%, rgba(0, 0, 0, .25) 100%);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.activity:hover:before {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.05) 60%, rgba(0, 0, 0, .10) 100%);
+}
+
 .image-container img {
   width: 100%;
   height: 20vw;
@@ -69,11 +87,13 @@ li.activity {
 }
 
 .description {
+  color: #FFF !important;
   font-size: 16px;
   margin-bottom: 10px;
 }
 
 .info-container .title {
+  color: #ffffff !important;
   font-size: 20px;
   line-height: 24px !important;
   font-weight: normal !important;
@@ -99,6 +119,21 @@ li.activity {
 
 .activity .completed i {
   font-family: 'FontAwesome' !important;
+}
+
+.activity .completed {
+  font-style: normal !important;
+}
+
+.activity .completed::before {
+  content: '';
+  width: 100vw;
+  height: 55vw;
+  top: -55vw;
+  background: rgba(0,0,0,.4);
+  position: absolute;
+  left: -10px;
+  padding: 20px 20px;
 }
 
 #activity-list .locked .point-value {
@@ -209,3 +244,4 @@ i.fa.fa-lock {
     left: 12vw;
   }
 }
+
