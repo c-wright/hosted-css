@@ -115,10 +115,6 @@ li.activity {
 }
 
 .activity .completed i {
-  font-family: 'FontAwesome' !important;
-}
-
-.activity .completed {
   display: none !important;
 }
 
