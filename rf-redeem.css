@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+* {
+  font-family: 'Oswald', sans-serif !important;
+}
+
+.header {
+  display: none !important;
+}
+
+.header h3 {
+  text-transform: uppercase !important;
+  font-weight: 600 !important;
+  font-size: 24px !important;
+  line-height: inherit !important;
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+body {
+  width: 100% !important;
+  border: solid 1px #3a3a3c;
+  padding: 5px 40px;
+}
+
+html {
+  overflow: auto !important;
+}
+
+.container {
+  padding: 20px 0px !important;
+}
+
+.fa.fa-lock {
+  font-family: 'FontAwesome', sans-serif !important;
+}
+
+#details, #review, #confirmation {
+  font-size: 0;
+}
+
+.left {
+  display: inline-block;
+  width: 55% !important;
+  padding: 0px 20px 0px 0px;
+  font-size: 16px;
+  vertical-align: top;
+  margin-right: 0px !important;
+}
+
+.reward-image {
+  width: 100%;
+  background-size: cover;
+}
+
+.right {
+  display: inline-block;
+  width: 45% !important;
+  font-size: 16px;
+  vertical-align: top;
+}
+
+.dl.form.submit {
+  margin-top: 25px;
+}
+
+.redemption-details select {
+  min-width: 100px
+}
+
+#redeem #details .description {
+  border-top: none;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+input {
+  background: none !important;
+  border: none !important;
+  border-bottom: solid 1px #3a688c !important;
+  padding-left: 0px !important;
+  border-radius: 0px !important;
+}
+
+select {
+  background: none !important;
+  border: none !important;
+  border-bottom: solid 1px #3a688c !important;
+  border-radius: 0px !important;
+  padding: 0px !important;
+}
+
+input:focus, select:focus {
+  outline: none !important;
+}
+
+.edit[disabled] {
+  color: #888 !important;
+}
+
+.ct-points-color {
+  color: #3a688c !important;
+}
+
+button.btn.btn-secondary, a.btn.btn-secondary {
+  background: none;
+  border: none;
+  color: #3a688c;
+}
+
+a.btn.btn-secondary {
+  padding: 0px;
+  font-weight: bold;
+}
+
+button.btn.btn-secondary:hover, a.btn.btn-secondary:hover {
+  background: none;
+  color: #3a688c;
+}
+
+.dl.form.submit {
+  margin-top: 25px;
+}
+
+.reward-title {
+  font-size: 24px !important;
+  text-transform: uppercase;
+  margin-bottom: 10px !important;
+}
+
+@media(max-width: 570px) {
+  body {
+    padding: 20px 20px;
+  }
+  .left {
+    width: 100% !important;
+    margin-bottom: 20px;
+  }
+  .right {
+    width: 100% !important;
+  }
+}
