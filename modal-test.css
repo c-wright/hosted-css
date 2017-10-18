@@ -5,3 +5,11 @@ html {
 .widget .header h3 {
   background: red !important;
 }
+
+.widget .header {
+  position: initial !important;
+}
+
+#redeem .container {
+  overflow: auto !important;
+}
