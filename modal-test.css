@@ -8,14 +8,10 @@ body {
   overflow: auto;
 }
 
-.widget .header h3 {
-  background: green !important;
-}
-
 .widget .header {
   position: initial !important;
 }
 
 #redeem .container {
-  overflow: auto !important;
+  padding-top: 20px !important;
 }
