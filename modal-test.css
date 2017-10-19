@@ -1,9 +1,11 @@
 html {
   height: 100% !important;
-  -webkit-overflow-scrolling: touch !important;
   overflow: scroll !important;
+  -webkit-overflow-scrolling: touch !important;
 }
 
 .header {
-  background-color: #bb3 !important;
+  background-color: #e8e86a !important;
 }
+
+
