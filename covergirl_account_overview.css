@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'PN Bold';
+    src: url('https://use.typekit.net/af/c85e2e/00000000000000003b9b093b/27/l?subset_id=2&fvd=n7&v=3');
+}
+
+* {
+    font-family: 'PN Bold' !important;
+}
+
+.header {
+    display: none !important;
+}
+
+.content {
+    width: 450px !important;
+    background: none !important;
+    float: none !important;
+    position: absolute;
+    right: 8%;
+}
+
+.container {
+    background-position-y: -4px;
+    background-position: right;
+    min-height: 375px;
+}
+
+h1.heading {
+    font-size: 50px;
+    font-family: 'PN Bold', sans-serif !important;
+    color: white;
+    background: #ff4168;
+    padding: 25px 20px 20px;
+    display: inline-block;
+    margin-bottom: 0px;
+}
+
+h3.description {
+    font-family: 'PN Bold', sans-serif !important;
+    font-size: 50px !important;
+    margin-bottom: 40px !important;
+    color: white;
+    background: #ff4168;
+    padding: 25px 20px 20px;
+    display: inline-block;
+}
+a.ct-link-color {
+    border: solid #fff 2px;
+    color: white !important;
+    padding: 5px 10px;
+    margin-left: 5px;
+    font-size: 16px;
+    font-family: "PN Bold";
+}
+p.login {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 40px;
+}
+.login span {
+    font-size: 16px;
+}
+button.btn.ct-button {
+    font-size: 16px;
+}
