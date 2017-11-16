@@ -63,3 +63,23 @@ p.login {
 button.btn.ct-button {
     font-size: 16px;
 }
+
+@media(max-width:500px) {
+ .content {
+   width: auto !important;
+ }
+ h1.heading, h3.description {
+    font-size: 38px !important;
+    padding: 20px 15px 15px;
+ }   
+ p.login {
+    float:right;
+ }
+ button.btn.ct-button {
+    width:auto !important;
+    display: block !important;
+    margin: auto;
+    margin-right: 0px !important;
+    margin-bottom: 10px
+ }
+}
