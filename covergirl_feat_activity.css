@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'PN Bold';
+    src: url('https://use.typekit.net/af/c85e2e/00000000000000003b9b093b/27/l?subset_id=2&fvd=n7&v=3');
+}
+
+* {
+    font-family: 'PN Bold' !important;
+}
+
+.widget .header {
+    border: 0;
+    text-align: center;
+}
+
+.widget .header h3 {
+    font-size: 36px;
+}
+
+li.activity {
+  margin-top: 0px !important;
+  border-bottom: solid 2px #ddd !important;
+  padding: 30px 30px !important;
+  margin: 0px 20px !important;
+}
+
+.title.ct-link-color {
+    font-size: 20px;
+    color: black !important;
+}
+
+.description {
+    font-size: 16px !important;
+    margin-top: 5px;
+}
+
+.image-container {
+    border-radius: 0 !important;
+}
+
+img {
+    padding: 0 !important;
+}
