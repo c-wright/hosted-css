@@ -21,6 +21,13 @@ i {
     text-transform: capitalize !important;
 }
 
+.btn.show-more {
+    background-color: #ff4164;
+    border: none !important;
+    margin-top: 20px !important;
+    text-align: center;
+}
+
 @media(max-width: 500px){
     .widget .header h3 {
         font-size: 26px;
