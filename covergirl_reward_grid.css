@@ -56,3 +56,24 @@ p.ct-points-color {
 #reward-list .rewards .reward img {
     padding: 0px 15px !important;
 }
+
+@media(max-width: 1024px){
+    .reward {
+        width: 33% !important
+    }
+}
+
+@media(max-width: 768px){
+    .reward {
+        width: 50% !important
+    }
+}
+
+@media(max-width: 500px){
+    .reward {
+        width: 100% !important
+    }
+    .widget .header h3 {
+        font-size: 26px;
+    }
+}
