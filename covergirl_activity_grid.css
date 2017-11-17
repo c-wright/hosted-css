@@ -97,3 +97,9 @@ img {}
 		column-count: 4;
 	}
 }
+
+@media(max-width: 500px){
+    .widget .header h3 {
+        font-size: 26px;
+    }
+}
