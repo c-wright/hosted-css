@@ -1,0 +1,121 @@
+@font-face {
+    font-family: 'PN Bold';
+    src: url('https://use.typekit.net/af/c85e2e/00000000000000003b9b093b/27/l?subset_id=2&fvd=n7&v=3');
+}
+
+@font-face {
+    font-family: 'PN Regular';
+    src: url('https://use.typekit.net/af/d46574/00000000000000003b9b0934/27/l?subset_id=2&fvd=n4&v=3');
+}
+
+* {
+    font-family: 'PN Bold' !important;
+}
+
+body {
+    margin-left: 7px;
+}
+
+.header {
+    display: none !important;
+}
+
+.fan-level img.icon {
+    display: none !important;
+}
+
+.user-container .fan-level {
+    font-size: 28px !important;
+    color: white;
+    background: #ff4168;
+    display: inline-block !important;
+    padding: 8px 18px;
+    position: absolute;
+    bottom: -29px;
+    right: 30px;
+}
+
+.name {
+    font-size: 46px !important;
+    text-transform: none !important;
+    color: white !important;
+}
+
+.points-info {
+    background: black;
+    position: relative;
+    padding: 10px 20px !important;
+}
+
+.container {
+    padding-top: 10px !important;
+    min-height: 180px;
+}
+
+span.flash-points {
+    color: white;
+    font-family: 'PN Regular' !important;
+    font-size: 20px !important;
+    margin-left: 50px;
+}
+
+.progress-bar-container {
+    display: none !important;
+}
+
+.user-info img {
+    display: none !important;
+}
+
+.user-info {
+    background-image: url('https://cdn3.thr.com/sites/default/files/2015/04/covergirl_katy_perry.jpg');
+    min-width: 165px !important;
+    background-size: 324px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    height: 115px !important;
+    background-position-y: top;
+}
+
+@media(max-width: 500px){
+    .user-info {
+        min-width: 140px !important;
+        background-size: 250px;
+        height: 150px !important
+    }
+    .name {
+        font-size: 36px !important;
+    }
+    .user-container .fan-level {
+        font-size: 25px !important;
+    }
+    .flash-points {
+        color: white !important;
+    }
+    .user-container .fan-level {
+        right: 140px;
+    }
+    .container {
+        min-height: 210px
+    }
+}
+
+@media(max-width: 360px){
+    .user-info {
+        min-width: 90px !important;
+        background-size: 200px;
+        height: 115px !important;
+    }
+    .name {
+        font-size: 36px !important;
+    }
+    .user-container .fan-level {
+        font-size: 20px !important;
+    }
+    .flash-points {
+        color: white !important;
+    }
+    .user-container .fan-level {
+        right: 130px;
+    }
+}
