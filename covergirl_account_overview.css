@@ -26,7 +26,7 @@ body {
 
 .user-container .fan-level {
     font-size: 28px !important;
-    color: white;
+    color: white !important;
     background: #ff4168;
     display: inline-block !important;
     padding: 8px 18px;
@@ -45,6 +45,7 @@ body {
     background: black;
     position: relative;
     padding: 10px 20px !important;
+    /* max-width: 80% !important; */
 }
 
 .container {
@@ -52,8 +53,8 @@ body {
     min-height: 180px;
 }
 
-span.flash-points {
-    color: white;
+.flash-points {
+    color: white !important;
     font-family: 'PN Regular' !important;
     font-size: 20px !important;
     margin-left: 50px;
@@ -85,6 +86,12 @@ a.logout-link.ct-link-color {
     color: white !important;
 }
 
+@media(max-width: 768px){
+    .user-info{
+        display: none !important
+    }
+}
+
 @media(max-width: 500px){
     .user-info {
         min-width: 140px !important;
@@ -93,18 +100,20 @@ a.logout-link.ct-link-color {
     }
     .name {
         font-size: 36px !important;
+        /* word-wrap: break-word !important; */
+        word-break: break-word;
     }
     .user-container .fan-level {
         font-size: 25px !important;
     }
-    .flash-points {
-        color: white !important;
-    }
     .user-container .fan-level {
-        right: 140px;
+        right: 70px;
     }
     .container {
-        min-height: 210px
+        min-height: 225px;
+    }
+    .flash-points{
+        margin-left: 0 !important;
     }
     a.logout-link.ct-link-color {
         top: auto !important;
@@ -126,10 +135,7 @@ a.logout-link.ct-link-color {
     .user-container .fan-level {
         font-size: 20px !important;
     }
-    .flash-points {
-        color: white !important;
-    }
     .user-container .fan-level {
-        right: 130px;
+        right: 140px;
     }
 }
