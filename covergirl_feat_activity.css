@@ -40,3 +40,18 @@ li.activity {
 img {
     padding: 0 !important;
 }
+
+@media(max-width: 500px){
+    .widget .header h3 {
+        font-size: 26px;
+    }
+    li.activity {
+      padding: 20px 20px !important;
+    }
+    .info-container {
+      max-width: 72% !important;
+    }
+    .title.ct-link-color, .description {
+      line-height: 1 !important;
+    }
+}
