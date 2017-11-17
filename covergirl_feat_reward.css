@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'PN Bold';
+    src: url('https://use.typekit.net/af/c85e2e/00000000000000003b9b093b/27/l?subset_id=2&fvd=n7&v=3');
+}
+
+* {
+    font-family: 'PN Bold' !important;
+}
+
+.widget .header {
+    border: 0;
+}
+
+.widget .header h3 {
+    font-size: 36px;
+}
+
+.reward {
+    width: 100% !important;
+    margin: 0 !important;
+    border: 0 !important;
+    position: relative;
+}
+
+.content {
+    background: #ff4167;
+    padding: 20px !important;
+    position: absolute;
+    top: 60%;
+    width: 70%;
+}
+
+a.title.ct-link-color {
+    color: white !important;
+    font-size: 30px !important;
+    margin: 0 !important;
+    height: auto !important;
+}
+
+.content .row:nth-child(2) {
+    display: none !important;
+}
+
+.content .row {height: auto !important;}
+
+p.ct-points-color {
+    color: white !important;
+    font-size: 20px;
+}
+
+.rewards {
+    padding: 40px;
+}
