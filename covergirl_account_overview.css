@@ -77,6 +77,14 @@ span.flash-points {
     background-position-y: top;
 }
 
+a.logout-link.ct-link-color {
+    display: block !important;
+    position: absolute;
+    top: 16px;
+    right: 26px;
+    color: white !important;
+}
+
 @media(max-width: 500px){
     .user-info {
         min-width: 140px !important;
@@ -97,6 +105,12 @@ span.flash-points {
     }
     .container {
         min-height: 210px
+    }
+    a.logout-link.ct-link-color {
+        top: auto !important;
+        bottom: -22px !important;
+        right: 10px !important;
+        color: black !important;
     }
 }
 
