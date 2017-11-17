@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'PN Bold';
+    src: url('https://use.typekit.net/af/c85e2e/00000000000000003b9b093b/27/l?subset_id=2&fvd=n7&v=3');
+}
+
+* {
+    font-family: 'PN Bold' !important;
+}
+
+i {
+    font-family: 'FontAwesome' !important;
+}
+
+.widget .header {
+    border: 0;
+    text-align: center;
+}
+
+.widget .header h3 {
+    font-size: 36px;
+    text-transform: capitalize !important;
+}
