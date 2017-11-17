@@ -24,6 +24,14 @@ body {
     display: none !important;
 }
 
+#account-overview .container {
+    display: block !important;
+}
+
+.user-container {
+    width: 100%;
+    display: block !important;
+}
 .user-container .fan-level {
     font-size: 28px !important;
     color: white !important;
@@ -45,7 +53,7 @@ body {
     background: black;
     position: relative;
     padding: 10px 20px !important;
-    /* max-width: 80% !important; */
+    max-width: 80% !important;
 }
 
 .container {
@@ -88,11 +96,22 @@ a.logout-link.ct-link-color {
 
 @media(max-width: 768px){
     .user-info{
-        display: none !important
+        display: none !important;
+    }
+    .points-info {
+        max-width: 100% !important;
+        width: 100% !important;
+        display: block !important;
     }
 }
 
-@media(max-width: 500px){
+@media(max-width: 600px){ 
+    .flash-points{
+        margin-left: 0 !important;
+    }
+}
+
+@media(max-width: 500px){ 
     .user-info {
         min-width: 140px !important;
         background-size: 250px;
@@ -100,7 +119,6 @@ a.logout-link.ct-link-color {
     }
     .name {
         font-size: 36px !important;
-        /* word-wrap: break-word !important; */
         word-break: break-word;
     }
     .user-container .fan-level {
