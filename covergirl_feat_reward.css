@@ -9,6 +9,7 @@
 
 .widget .header {
     border: 0;
+    text-align:center;
 }
 
 .widget .header h3 {
