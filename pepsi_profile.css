@@ -123,6 +123,7 @@ select:focus{
 
 .account-settings .input-group {
     width: 24%;
+    min-width: 250px;
 }
 
 .account-settings .input-group .birthday-fields .month{
