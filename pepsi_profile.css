@@ -1,0 +1,126 @@
+* {
+    font-family: 'Sophia Pro', sans-serif;
+}
+
+.header.ct-header-color {
+    display: none;
+}
+
+body {
+    background: transparent;
+}
+
+label {
+    color: #00529c;
+    font-size: 18px;
+    font-family: 'Sofia Pro'
+}
+
+form.primary-settings {
+    position: relative;
+    padding-bottom: 50px;
+    margin-bottom: 40px;
+}
+
+button.edit {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    font-size: 16px !important;
+    font-family: "Sofia Pro" !important;
+    color: #FFF !important;
+    background: #00529c !important;
+    padding: 10px !important;
+    border-radius: 20px;
+    text-transform: uppercase;
+    width: 80px;
+    margin-left: -40px;
+}
+
+hr {
+    border-color: #000;
+    border-top: 0;
+    margin-bottom: 40px;
+}
+
+p {
+    font-size: 18px;
+    font-family: "Sofia Pro" !important;
+    margin-top: 10px !important;
+}
+
+button.edit[disabled] {
+    display: none;
+}
+
+button.edit.ng-binding {}
+
+button.save.btn.ct-button {
+    color: #FFF !important;
+    background: #00529c;
+    border: 0;
+    padding: 10px;
+    width: 100px;
+    border-radius: 20px;
+    margin-left: 10px;
+    font-family: "Sofia Pro";
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+button.cancel.btn.btn-secondary {
+    color: #00529c !important;
+    background: #FFF;
+    border: 0;
+    padding: 10px;
+    width: 100px;
+    border-radius: 20px;
+    margin-left: 10px;
+    font-family: "Sofia Pro";
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.button-container {
+    position: absolute;
+    left: 50%;
+    width: 240px;
+    margin-left: -120px;
+}
+
+input {
+    background: none !important;
+    border: none !important;
+    border-bottom: solid 2px #00529c !important;
+    padding-left: 0px !important;
+    border-radius: 0px !important;
+    font-size: 16px !important;
+    padding-bottom: 3px !important;
+}
+
+input:focus{
+    outline: none;
+}
+
+select {
+    background: none !important;
+    border: none !important;
+    border-bottom: solid 2px #00529c !important;
+    border-radius: 0px !important;
+    padding: 0px !important;
+    font-size: 16px !important;
+}
+
+select:focus{
+    outline: none;
+}
+
+.account-settings .input-group .birthday-fields .month{
+    width: 120px;
+}
+
+.account-settings .input-group .birthday-fields .day{
+    width: 35px;
+}
