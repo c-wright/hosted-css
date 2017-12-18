@@ -1,0 +1,47 @@
+.header.ct-header-color {
+    position: relative;
+    background: transparent;
+    text-align: center;
+    border: 0;
+}
+
+body {
+    background: transparent;
+}
+
+h3.ct-header-text-color {
+    color: #00529c !important;
+    font-size: 50px !important;
+    font-family: "Admisi Display SSi", sans-serif !important;
+    line-height: normal !important;
+}
+
+.container {
+    padding: 20px !important;
+}
+
+th {
+    color: #000 !important;
+    font-size: 18px;
+    font-family: "Sofia Pro", sans-serif;
+    text-transform: none !important;
+}
+
+th:nth-child(3) {
+    color: #02baf3 !important;
+}
+
+thead {
+    border-color: #000 !important;
+}
+
+td, td span {
+    font-size: 18px;
+    font-family: "Sofia Pro", sans-serif;
+    color: #000 !important;
+}
+
+tbody::before {
+    content: "" !important;
+    padding-bottom: 10px;
+}
