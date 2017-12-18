@@ -22,6 +22,12 @@ form.primary-settings {
     margin-bottom: 40px;
 }
 
+form.secondary-settings {
+    position: relative;
+    padding-bottom: 50px;
+    margin-bottom: 40px;
+}
+
 button.edit {
     position: absolute;
     bottom: 0;
@@ -52,8 +58,6 @@ p {
 button.edit[disabled] {
     display: none;
 }
-
-button.edit.ng-binding {}
 
 button.save.btn.ct-button {
     color: #FFF !important;
