@@ -1,0 +1,63 @@
+* {
+  font-family: 'Sofia Pro', sans-serif !important;
+}
+
+.header {
+    display: none !important;
+}
+
+.container {
+    padding: 0px !important;
+}
+
+.progress-bar-container {
+    display: none !important;
+}
+
+#account-overview {
+    width: auto !important;
+    display: inline-block;
+}
+
+.fan-level {
+    display: none !important;
+}
+
+.redeemable-points {
+    display: block !important;
+}
+
+.points {
+    display: none !important;
+}
+
+.redeemable-points {
+    width: 140px;
+    font-size: 12px !important;
+    text-transform: uppercase;
+    color: #ed1b2e !important;
+    font-weight: bold;
+}
+
+.redeemable-points::first-line {
+    font-weight: bold;
+    font-size: 18px !important;
+}
+
+span.flash-points {
+    font-size: inherit !important;
+}
+
+.name {
+    text-transform: none !important;
+    margin-bottom: 0px !important;
+    color: #000 !important;
+}
+
+body {
+    background: none !important;
+}
+
+.points-info {
+    padding-left: 10px !important;
+}
