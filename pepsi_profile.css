@@ -121,6 +121,10 @@ select:focus{
     outline: none;
 }
 
+.account-settings .input-group {
+    width: 24%;
+}
+
 .account-settings .input-group .birthday-fields .month{
     width: 120px;
 }
