@@ -32,16 +32,10 @@
 }
 
 .redeemable-points {
-    width: 140px;
-    font-size: 12px !important;
+    font-size: 20px !important;
     text-transform: uppercase;
     color: #ed1b2e !important;
     font-weight: bold;
-}
-
-.redeemable-points::first-line {
-    font-weight: bold;
-    font-size: 18px !important;
 }
 
 span.flash-points {
@@ -49,9 +43,11 @@ span.flash-points {
 }
 
 .name {
-    text-transform: none !important;
-    margin-bottom: 0px !important;
+    font-size: 14px !important;
+    font-family: "Sofia Pro", sans-serif !important;
     color: #000 !important;
+    margin-bottom: 5px !important;
+    margin-top: 5px;
 }
 
 body {
