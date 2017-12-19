@@ -43,6 +43,10 @@ button.edit {
     margin-left: -40px;
 }
 
+button.edit:hover {
+    background: #00baf2 !important;
+}
+
 hr {
     border-color: #000;
     border-top: 0;
