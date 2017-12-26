@@ -21,6 +21,7 @@ body {
     position: relative !important;
     display: block !important;
     width: 100% !important;
+    border: 0 !important;
 }
 
 .content {
