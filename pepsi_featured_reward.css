@@ -62,10 +62,13 @@ a.title.ct-link-color {
     position: absolute;
     top: -35px;
     left: 39%;
-    background: #ed1b2e;
-    padding: 8px 20px;
     color: white !important;
     font-size: 16px !important;
+}
+
+.quantity p {
+    background: #ed1b2e;
+    padding: 8px 20px;
 }
 
 @media(max-width: 500px) {
