@@ -14,6 +14,7 @@ body {
     width: 50% !important;
     padding: 0px 7% 0 4% !important;
     display: inline-block !important;
+    /* border: 0 !important; */
 }
 
 .reward {
@@ -34,6 +35,7 @@ a.title.ct-link-color {
     color: #00529c !important;
     font-size: 30px !important;
     font-family: "Sofia Pro", sans-serif !important;
+    height: auto !important;
 }
 
 .points {
@@ -64,4 +66,29 @@ a.title.ct-link-color {
     padding: 8px 20px;
     color: white !important;
     font-size: 16px !important;
+}
+
+@media(max-width: 500px) {
+    .reward {
+        text-align: center !important;
+    }
+
+    .reward img {
+        display: block !important;
+        width: 100% !important;
+        max-width: 450px !important;
+        margin: auto !important;     
+    }
+
+    .quantity {
+        top: 0;
+        right: 10%;
+        left: auto;
+        opacity: .8;
+    }
+
+    a.title.ct-link-color {
+        padding-top: 10px !important;
+        font-size: 21px !important;
+    }
 }
