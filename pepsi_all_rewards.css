@@ -19,7 +19,7 @@ body {
     font-size: 0 !important;
     clear: none !important;
     margin: 0 !important;
-    padding: 0 10px 80px;
+    padding: 0 10px 90px;
 }
 
 img {
@@ -27,6 +27,7 @@ img {
     width: auto !important;
     margin: auto !important;
     display: block;
+    cursor: pointer !important;
 }
 
 a.title.ct-link-color {
@@ -63,7 +64,7 @@ p.ct-points-color {
 
 .quantity {
     position: absolute;
-    top: 0;
+    top: -45px;
     float: none !important;
     right: 0;
 }
