@@ -24,6 +24,7 @@ body {
 
 img {
     max-height: 225px;
+    max-width: 100%;
     width: auto !important;
     margin: auto !important;
     display: block;
@@ -75,4 +76,25 @@ p.ct-points-color {
     color: white;
     font-family: 'Sofia Pro', sans-serif !important;
     font-size: 14px;
+}
+
+@media(max-width: 680px) {
+    .reward {
+        width: 50% !important;
+        padding: 0 10px 50px;
+    }
+    img {
+        max-height: 150px;
+        max-width: 100%;
+    }
+    a.title.ct-link-color {
+        font-size: 20px !important;
+    }
+    .quantity {
+        top: 0;
+        opacity: .8;
+    }
+    p.ct-points-color {
+        padding: 7px 29px;
+    }
 }
