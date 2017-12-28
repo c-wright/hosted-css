@@ -12,7 +12,7 @@ body {
 
 .container {
     padding: 0 !important;
-    min-height: 180px;
+    min-height: 235px;
     overflow: hidden;
 }
 
@@ -47,9 +47,9 @@ button.btn.btn-small.ct-button {
     background: transparent;
     border: solid white 2px;
     border-radius: 50px;
-    width: 100px;
+    width: 125px;
     font-family: 'Cervo Neue', sans-serif !important;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
     margin-top: 15px;
 }
@@ -81,4 +81,8 @@ input:valid {
 
 dd.error {
     display: none;
+}
+
+.notification-container {
+    margin-top: 30px;
 }
