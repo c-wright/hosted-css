@@ -1,0 +1,84 @@
+* {
+    font-family: 'Sophia Pro', sans-serif;
+}
+
+.header.ct-header-color {
+    display: none;
+}
+
+body {
+    background: transparent;
+}
+
+.container {
+    padding: 0 !important;
+    min-height: 180px;
+    overflow: hidden;
+}
+
+p.description {
+    display: none;
+}
+
+label[for="dynamic-form-field-code"] {
+    height: 0px !important;
+}
+
+label[for="dynamic-form-field-code"]::after {
+    content: 'ENTER CODE FROM PEPSI PRODUCT HERE';
+    position: absolute;
+    top: 25px;
+    font-size: 20px;
+    font-family: 'Sofia Pro', sans-serif;
+    font-weight: normal;
+    color: #aaa;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    z-index: 2;
+}
+
+.submit-container {
+    float: none !important;
+    text-align: center;
+}
+
+button.btn.btn-small.ct-button {
+    background: transparent;
+    border: solid white 2px;
+    border-radius: 50px;
+    width: 100px;
+    font-family: 'Cervo Neue', sans-serif !important;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.btn:disabled, a.btn:disabled {
+    opacity: 1;
+}
+
+form {
+    height: auto !important;
+    box-sizing: border-box !important;
+}
+
+input {
+    font-size: 20px !important;
+    padding: 18px 0 15px !important;
+    text-align: center;
+    font-family: 'Sofia Pro', sans-serif !important;
+    position: relative;
+}
+
+input:invalid {
+    z-index: 1;
+}
+
+input:valid {
+    z-index: 99;
+}
+
+dd.error {
+    display: none;
+}
