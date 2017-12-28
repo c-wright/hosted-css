@@ -1,0 +1,58 @@
+* {
+    font-family: 'Sophia Pro', sans-serif;
+}
+
+.header.ct-header-color {
+    display: none;
+}
+
+body {
+    background: transparent;
+}
+
+.container {
+    padding: 0 !important;
+}
+
+.image-container {
+    display: none !important;
+}
+
+li.activity {
+    background: transparent !important;
+    border: 0 !important;
+    padding: 0 !important;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+}
+
+.points-container {
+    display: none !important;
+}
+
+.description {
+    display: none;
+}
+
+.info-container {
+    padding: 0 !important;
+    float: none !important;
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+.title.ct-link-color {
+    color: white;
+    font-family: 'Cervo Neue', sans-serif;
+    font-size: 18px;
+    background: #00529c;
+    padding: 18px 45px;
+    border-radius: 50px;
+    text-transform: uppercase;
+}
+
+ul {
+    text-align: center;
+}
