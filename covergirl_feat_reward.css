@@ -7,6 +7,10 @@
     font-family: 'PN Bold' !important;
 }
 
+i {
+    font-family: 'FontAwesome' !important;
+}
+
 .widget .header {
     border: 0;
     text-align:center;
