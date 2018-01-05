@@ -1,0 +1,60 @@
+.header.ct-header-color {
+    display: none;
+}
+
+.container {
+    padding: 0 !important;
+    background: transparent !important;
+}
+
+.content {
+    padding: 0 !important;
+    background: transparent !important;
+}
+
+body {
+    background: transparent !important;
+}
+
+h1.heading {
+    display: none;
+}
+
+h3.description {
+    display: none;
+}
+
+button.btn.ct-button {
+    width: auto !important;
+    border: solid 2px #1566a8 !important;
+    color: #1566a8;
+    background: transparent;
+    border-radius: 50px;
+    font-weight: bold;
+    font-family: "Sofia Pro", sans-serif !important;
+    font-size: 14px;
+    padding: 12px 15px 10px;
+    -webkit-transition: background-color .2s, color .2s;
+    transition: background-color .2s, color .2s;
+}
+
+button.btn.ct-button:hover {
+    background: #1566a8;
+    color: #fff;
+}
+
+.login span {
+    display: none;
+}
+
+p.login {
+    display: inline-block;
+}
+
+.login a.ct-link-color {
+    color: #00529c;
+    font-family: "Sofia Pro", sans-serif !important;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-left: 15px;
+}
