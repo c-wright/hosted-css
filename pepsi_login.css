@@ -5,11 +5,14 @@
 .container {
     padding: 0 !important;
     background: transparent !important;
+    text-align: center;
 }
 
 .content {
     padding: 0 !important;
     background: transparent !important;
+    float: none !important;
+    margin: auto;
 }
 
 body {
