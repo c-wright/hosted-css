@@ -1,0 +1,251 @@
+* {
+  font-family: 'Sofia Pro', sans-serif !important;
+  color: #FFFFFF;
+}
+
+.header {
+  color: #FFFFFF !important;
+  background: transparent !important;
+  display: block !important;
+  position: inherit !important;
+  font-family: 'Avenir Next LT for AMC', sans-serif !important;
+  padding: 0px !important;
+  display: none !important;
+}
+
+.header h3 {
+  text-transform: uppercase !important;
+  font-weight: 600 !important;
+  font-size: 24px !important;
+  line-height: inherit !important;
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+body {
+  background: #00529c !important;
+  width: 100% !important;
+  border: solid 1px #3a3a3c;
+  padding: 5px 40px;
+}
+
+html {
+  overflow: auto !important;
+}
+
+.container {
+  padding: 20px 0px !important;
+}
+
+.fa.fa-lock {
+  font-family: 'FontAwesome', sans-serif !important;
+}
+
+#details, #review, #confirmation {
+  font-size: 0;
+}
+
+.left {
+  display: inline-block;
+  width: 55% !important;
+  padding: 0px 60px 0px 0px;
+  font-size: 16px;
+  vertical-align: top;
+  margin-right: 0px !important;
+  position: relative;
+}
+
+.reward-image {
+  width: 100%;
+  background-size: contain;
+  min-height: 325px;
+}
+
+.right {
+  display: inline-block;
+  width: 45% !important;
+  font-size: 16px;
+  vertical-align: top;
+  position: relative;
+}
+
+.dl.form.submit {
+  margin-top: 25px;
+}
+
+.redemption-details select {
+  min-width: 100px
+}
+
+#redeem #details .description {
+  border-top: none;
+  margin-top: 10px;
+  padding-top: 0px;
+  border: none;
+  font-size: 14px;
+}
+
+input {
+  background: none !important;
+  border: none !important;
+  border-bottom: solid 1px #fff !important;
+  padding-left: 0px !important;
+  border-radius: 0px !important;
+}
+
+select {
+  background: none !important;
+  border: none !important;
+  border-bottom: solid 1px #fff !important;
+  border-radius: 0px !important;
+  padding: 0px !important;
+}
+
+input:focus, select:focus {
+  outline: none !important;
+}
+
+.edit[disabled] {
+  color: #888 !important;
+}
+
+.ct-points-color {
+  color: #fff !important;
+  font-size: 14px;
+}
+
+button.btn.btn-secondary, a.btn.btn-secondary {
+  background: transparent;
+  border: solid 2px #fff;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 50px;
+  vertical-align: top;
+  font-family: "Cervo Neue", sans-serif !important;
+  font-size: 15px;
+  min-width: 80px;
+  padding: 8px 10px !important;
+  margin-right: 10px;
+}
+
+a.btn.btn-secondary {
+  padding: 0px;
+  font-weight: bold;
+}
+
+button.btn.btn-secondary:hover, a.btn.btn-secondary:hover {
+  background: none;
+  color: #D7DF59;
+}
+
+.dl.form.submit {
+  margin-top: 40px;
+}
+
+.reward-title {
+  font-size: 24px !important;
+  text-transform: uppercase;
+  margin-bottom: 10px !important;
+}
+
+@media(max-width: 570px) {
+  body {
+    padding: 20px 20px;
+  }
+  .left {
+    width: 100% !important;
+    margin-bottom: 20px;
+    padding: 0;
+  }
+  .right {
+    width: 100% !important;
+    margin-top: 0 !important;
+  }
+
+  #redeem .numeric-details {
+    position: relative !important;
+    left: 0 !important;
+  }
+
+  #redeem .numeric-details .row {
+    display: block !important;
+    margin-top: 22px !important;
+  }
+}
+
+
+#redeem .numeric-details {
+    position: absolute;
+    top: 0;
+    right: -88%;
+    padding: 0;
+    width: 88%;
+    text-align: left;
+    min-width: 267px;
+}
+
+#redeem .numeric-details .row {
+    display: inline-block;
+    margin-right: 22px;
+}
+
+#redeem .numeric-details .row label {
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+
+#details .right {
+    margin-top: 80px;
+    position: relative;
+}
+
+#details .right::before {
+  content: 'Description';
+  font-weight: bold;
+  font-size: 17px;
+}
+
+label {
+    font-size: 17px;
+}
+
+.redemption-details form dl dt {
+    margin-top: 25px;
+}
+
+button.btn.ct-button {
+    background: transparent;
+    border: solid 2px #fff;
+    border-radius: 50px;
+    min-width: 120px;
+    font-weight: bold;
+    font-family: "Cervo Neue", sans-serif !important;
+    font-size: 15px;
+    padding: 8px 10px !important;
+}
+
+.additional-images {
+    text-align: center;
+    margin-top: 25px;
+}
+
+#redeem #review .email-address-info {
+    border: none;
+    padding-top: 0;
+}
+
+#redeem #review .numeric-details {
+    left: 0;
+    position: relative;
+    padding: 0;
+}
+
+#redeem #review .numeric-details .row {
+    display: block;
+    margin-bottom: 25px;
+}
+
+.email-address {
+    margin-top: 5px;
+    font-size: 13px;
+}
