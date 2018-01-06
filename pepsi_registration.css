@@ -1,0 +1,179 @@
+* {
+  font-family: 'Sofia Pro', sans-serif !important;
+  color: #FFFFFF;
+}
+
+.header {
+    color: #FFFFFF !important;
+    background: transparent !important;
+    display: block !important;
+    position: inherit !important;
+    font-family: 'Avenir Next LT for AMC', sans-serif !important;
+    margin-bottom: 15px;
+    padding: 20px 0px 0px !important;
+    border: none !important;
+}
+
+.header h3 {
+    text-transform: uppercase !important;
+    font-weight: 600 !important;
+    font-size: 24px !important;
+    line-height: inherit !important;
+    margin: 0px !important;
+    padding: 0px !important;
+    text-align: center;
+}
+
+body {
+    background: #00529c !important;
+    width: 100% !important;
+    border: solid 1px #3a3a3c;
+    padding: 20px;
+}
+
+html {
+    overflow: auto !important;
+}
+
+.container {
+    box-sizing: border-box;
+    max-width: 100%;
+    padding-top: 15px !important;
+}
+
+.sign-up button, .log-in button {
+    font-weight: 600 !important;
+    line-height: 45px !important;
+}
+
+.sign-up i, .log-in i {
+    display: none;
+}
+
+.sign-up, .log-in {
+    text-align: center;
+}
+
+.log-in button[type=submit] {
+    padding: 0px !important;
+    margin: 20px 0px 40px !important;
+    background: transparent!important;
+    border: solid 2px #fff !important;
+    border-radius: 50px;
+    width: 160px !important;
+    color: #fff !important;
+}
+
+p.log-in-link {
+    margin-top: 40px;
+}
+
+a.ct-link-color {
+    color: #fff !important;
+    margin-left: 0;
+    display: block;
+    text-decoration: underline;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+span, p {
+    font-size: 14px !important;
+}
+
+button.btn.btn-email.ct-button {
+    background: transparent !important;
+    border: solid 2px #fff;
+    border-radius: 50px;
+}
+
+.btn.btn-email span {
+    color: #fff !important;
+}
+
+label {
+    text-align: left !important;
+}
+
+input, select {
+    color: #FFF !important;
+    background: none !important;
+    border: none !important;
+    border-bottom: solid 1px #FFF !important;
+    padding-left: 0px !important;
+    border-radius: 0px !important;
+}
+
+select {
+    background: none !important;
+    border: none !important;
+    border-bottom: solid 1px #fff !important;
+    border-radius: 0px !important;
+    padding: 0px !important;
+}
+
+input:focus, select:focus {
+    outline: none !important;
+}
+
+.log-in button[type=submit] span {
+    color: #fff !important;
+}
+
+#sign-up .btn-group button[type=submit] {
+    background: transparent !important;
+    border: solid 2px #fff !important;
+    height: 40px;
+    color: #fff !important;
+}
+
+#sign-up .btn-group button[type=submit] span {
+    color: #fff !important;
+}
+
+#sign-up button, span {
+    font-weight: 600 !important;
+}
+
+#sign-up .btn-group button {
+    border: solid 2px #fff !important;
+    vertical-align: top;
+    height: 40px;
+    background: transparent;
+    color: #fff;
+    border-radius: 50px;
+}
+
+a {
+    color: #fff !important;
+    text-decoration: underline;
+}
+
+.notification.notification-error span {
+    color: #a20114 !important;
+}
+
+.log-in-link span {
+    display: block;
+    text-align: center;
+    margin: 0;
+}
+
+.btn-group {
+    text-align: center;
+}
+
+dl.form {
+    margin-bottom: 20px;
+}
+
+dl.form.side-by-side {
+    margin-bottom: 10px;
+}
+
+dl.form dd.error {
+    color: #ed1b2e;
+    text-shadow: 0px 0px 1px #000;
+    font-size: 13px;
+    margin-top: 10px !important;
+}
