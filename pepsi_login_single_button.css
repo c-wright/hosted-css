@@ -1,0 +1,54 @@
+.header.ct-header-color {
+    display: none;
+}
+
+.container {
+    padding: 0 !important;
+    background: transparent !important;
+    text-align: center;
+}
+
+.content {
+    padding: 0 !important;
+    background: transparent !important;
+    float: none !important;
+    margin: auto;
+}
+
+body {
+    background: transparent !important;
+}
+
+h1.heading {
+    display: none;
+}
+
+h3.description {
+    display: none;
+}
+
+button.btn.ct-button {
+    width: auto !important;
+    border: none !important;
+    background: #00529c;
+    border-radius: 50px;
+    font-weight: bold;
+    font-family: "Cervo Neue", sans-serif !important;
+    font-size: 16px;
+}
+
+.login span {
+    display: none;
+}
+
+p.login {
+    display: none;
+}
+
+.login a.ct-link-color {
+    color: #00529c;
+    font-family: "Cervo Neue", sans-serif !important;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-left: 15px;
+}
