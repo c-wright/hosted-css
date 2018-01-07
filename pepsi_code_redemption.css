@@ -21,11 +21,6 @@ p.description {
 }
 
 label[for="dynamic-form-field-code"] {
-    height: 0px !important;
-}
-
-label[for="dynamic-form-field-code"]::after {
-    content: 'ENTER CODE FROM PEPSI PRODUCT HERE';
     position: absolute;
     top: 25px;
     font-size: 20px;
@@ -90,7 +85,7 @@ dd.error {
 }
 
 @media (max-width: 420px) {
-    label[for="dynamic-form-field-code"]::after {
+    label[for="dynamic-form-field-code"] {
         top: 17px;
     }
 }
