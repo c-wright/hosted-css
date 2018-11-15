@@ -111,11 +111,11 @@ input[type="radio"] {
 }
 
 
-.header {
+div#account-overview .header {
     display: none !important;
 }
 
-.container {
+div#account-overview .container {
  padding: 20px !important;
  background: transparent !important;
 }
