@@ -109,3 +109,88 @@ h3 {
 input[type="radio"] {
     margin-right: 8px;
 }
+
+
+.header {
+    display: none !important;
+}
+
+.container {
+ padding: 20px !important;
+ background: transparent !important;
+}
+
+#account-overview .user-container {
+    display: block !important;
+    float: none !important;
+    text-align: center;
+    padding: 0 !important;
+}
+
+.user-info {
+    display: none !important;
+}
+
+.fan-level {
+    display: block !important;
+    float: none !important;
+}
+
+.points-info {
+    display: block !important;
+    padding: 0 !important;
+    margin: auto !important;
+    width: auto !important;
+}
+
+img.icon {
+    display: none !important;
+}
+
+.progress-bar-container {
+    display: block !important;
+    width: 100% !important;
+    margin-top: 30px !important;
+}
+
+div#account-overview {
+    background: transparent !important;
+}
+
+* {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+body {
+    background: transparent !important;
+}
+
+ct-progress-bar span.bar {
+    background: #c5a142 !important;
+}
+
+.logout-link-container {
+    display: none !important;
+}
+
+.fan-level-progress-details {
+    display: none !important;
+}
+
+.lifetime-points {
+    text-align: center;
+}
+
+.name {
+    font-size: 28px !important;
+    color: black !IMPORTANT;
+}
+
+span.flash-points {
+    font-size: 22px !important;
+    margin-top: 10px;
+}
+
+.small {
+    font-size: 22px;
+}
