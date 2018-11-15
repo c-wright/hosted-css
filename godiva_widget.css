@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+@font-face {
+    font-family: 'VerlagBook';
+    font-weight: normal;
+    src: url("http://rewards.crowdtwist.com/demo/godiva/godiva_assets/fonts/VerlagBook.woff") format("woff");
+}
+
+body::-webkit-scrollbar,
+iframe::-webkit-scrollbar {
+  display: none;
+}
+
+.widget {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: 'Montserrat', 'Open Sans', sans-serif;
+  background-color: transparent !important;
+}
+
+
+div[ct-invite-friends] {
+    height: 536px;
+}
+
+* {
+    font-family: 'Montserrat' !important;
+}
+
+i {
+    font-family: 'FontAwesome' !important;
+}
+
+li.activity {display: inline-block;width: 33%;padding: 10px !important;background: transparent !important;box-sizing: border-box;vertical-align: top !important;margin: 0 !important;border: 0 !important;}
+
+[ct-activity-list] ul {font-size: 0;display: block !important;}
+
+#activity-list .image-container {
+    width: 100%;
+    background: #eee !important;
+    height: auto;
+    border-radius: 0 !important;
+    display: block !important;
+    margin-bottom: 15px;
+}
+
+#activity-list .image-container img {
+    width: 100%;
+    object-fit: cover;
+    height: 300px;
+}
+
+.info-container {
+    font-size: 16px;
+    float: none !important;
+    display: block !important;
+    text-align: center;
+    margin: 5px auto;
+    padding: 0 !important;
+    max-width: 85% !important;
+}
+
+.points-container {
+    font-size: 16px;
+    display: block !important;
+    float: none !important;
+    text-align: center !important;
+}
+
+.header {
+    text-align: center;
+}
+
+.widget .container {
+    padding: 100px 10px 10px 10px !important;
+}
+
+h3 {
+    font-size: 20px !important;
+    margin: 20px 0 !important;
+}
+
+#reward-list .reward {
+    width: 33% !important;
+    display: inline-block !important;
+    float: none !important;
+    margin: 0 !important;
+    padding: 5px !important;
+    border: 0 !important;
+}
+
+#reward-list a.title {
+    text-align: center;
+}
+
+#reward-list img {
+    background: #eee;
+    padding: 5px;
+}
+
+.btn.show-more {
+    color: black;
+    background: #d0b665;
+    border: 0;
+    text-align: center;
+}
+
+input[type="radio"] {
+    margin-right: 8px;
+}
